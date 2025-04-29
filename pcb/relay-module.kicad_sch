@@ -28680,6 +28680,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -31394,6 +31501,18 @@
 		(color 0 0 0 0)
 		(uuid "4b44a57c-4d9c-4bc9-b5ed-4e52dd85818d")
 	)
+	(junction
+		(at 40.64 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92a30a95-4cb5-4241-8425-a8f1370bede1")
+	)
+	(junction
+		(at 243.84 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae6ee6b0-d9f4-4517-8e28-01fcc08e9117")
+	)
 	(no_connect
 		(at 128.27 43.18)
 		(uuid "0740bef1-0f5d-4bd7-aacd-6255e985ff0c")
@@ -31486,7 +31605,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 34.29) (xy 248.92 34.29)
+			(xy 237.49 34.29) (xy 243.84 34.29)
 		)
 		(stroke
 			(width 0)
@@ -31526,6 +31645,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 34.29) (xy 248.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c9012a-7220-474d-8320-b8149e3874db")
+	)
+	(wire
+		(pts
 			(xy 247.65 57.15) (xy 247.65 55.88)
 		)
 		(stroke
@@ -31543,6 +31672,16 @@
 			(type default)
 		)
 		(uuid "29e54863-20fa-4a09-b742-ca9875af197b")
+	)
+	(wire
+		(pts
+			(xy 87.63 50.8) (xy 102.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3beccee8-e0e4-4c50-8cfc-5d404173dc4c")
 	)
 	(wire
 		(pts
@@ -31616,6 +31755,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 58.42) (xy 40.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610642dd-8ef7-4b22-8937-8609fae14e89")
+	)
+	(wire
+		(pts
 			(xy 128.27 48.26) (xy 135.89 48.26)
 		)
 		(stroke
@@ -31686,6 +31835,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 31.75) (xy 243.84 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4f5ecb-196f-4c50-a41f-cb0ce79cfe80")
+	)
+	(wire
+		(pts
 			(xy 222.25 25.4) (xy 222.25 29.21)
 		)
 		(stroke
@@ -31693,6 +31852,16 @@
 			(type default)
 		)
 		(uuid "93504314-3a92-4732-920a-ed564d9c5d2a")
+	)
+	(wire
+		(pts
+			(xy 87.63 46.99) (xy 87.63 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98208e97-21e2-4802-bda0-af3ec944de20")
 	)
 	(wire
 		(pts
@@ -31746,7 +31915,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 60.96) (xy 53.34 60.96)
+			(xy 38.1 60.96) (xy 40.64 60.96)
 		)
 		(stroke
 			(width 0)
@@ -31803,6 +31972,16 @@
 			(type default)
 		)
 		(uuid "e59589c7-7a7a-4ffa-8680-bd548acf6a65")
+	)
+	(wire
+		(pts
+			(xy 40.64 60.96) (xy 53.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb629772-1a90-4fb5-a2d7-f4f3a4f8ed21")
 	)
 	(wire
 		(pts
@@ -33662,6 +33841,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3992def1-e764-45cb-ae3c-b8c46f7e3b2b")
+		(property "Reference" "TP2"
+			(at 43.18 53.8479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RELAY_CTRL"
+			(at 43.18 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 45.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2464c730-de6a-442b-9b06-0e7338144758")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:AVR-UPDI-6")
 		(at 144.78 167.64 0)
 		(unit 1)
@@ -33713,46 +33959,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 144.78 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 144.78 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 144.78 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 144.78 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 144.78 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "4"
@@ -34361,6 +34567,73 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5aeb415b-b223-4f28-9560-58192eb448df")
+		(property "Reference" "TP3"
+			(at 246.38 27.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPDI"
+			(at 246.38 29.7179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 248.92 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01c4ad8f-dd37-49f9-b21e-5eeb59511477")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -37195,6 +37468,72 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 87.63 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff397062-18fe-4c55-ab26-0e64a617c224")
+		(property "Reference" "TP1"
+			(at 86.614 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RELAY_CONTROL"
+			(at 71.12 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 92.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710fe700-50ec-449d-82ce-aad09684cb47")
+		)
+		(instances
+			(project ""
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
