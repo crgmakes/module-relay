@@ -28926,6 +28926,309 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -31377,6 +31680,19 @@
 		(uuid a76db1ba-0a34-4600-9c51-e39f0691a4c3)
 	)
 	(rectangle
+		(start 178.435 93.345)
+		(end 213.995 125.095)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b5277fe1-7e6e-40e1-be92-579d745dc76c)
+	)
+	(rectangle
 		(start 177.8 15.24)
 		(end 278.13 88.9)
 		(stroke
@@ -31388,6 +31704,27 @@
 			(type none)
 		)
 		(uuid c8da4ad6-432d-4384-9938-a0b99a1e1cf9)
+	)
+	(text "PSU active LED"
+		(exclude_from_sim no)
+		(at 43.18 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07a17ffd-f2ad-4140-8ba4-378558ea7c57")
+	)
+	(text "Relay LED"
+		(exclude_from_sim no)
+		(at 184.15 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0843f6cd-91cd-473d-8366-07283ca509f8")
 	)
 	(text "Programming"
 		(exclude_from_sim no)
@@ -31414,6 +31751,17 @@
 			(justify left)
 		)
 		(uuid "5fde70f5-4f42-429c-9a6e-b26bba3985ed")
+	)
+	(text "PSU active LED"
+		(exclude_from_sim no)
+		(at 26.67 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "891f1d16-8cb1-41fc-b191-3b8778342eae")
 	)
 	(text "Relay"
 		(exclude_from_sim no)
@@ -31538,10 +31886,6 @@
 		(uuid "7b5be430-0c04-4cc3-a756-d1e6c15d9fa4")
 	)
 	(no_connect
-		(at 237.49 52.07)
-		(uuid "9767579e-3fa3-4d2b-b9db-54ac00739dd1")
-	)
-	(no_connect
 		(at 237.49 39.37)
 		(uuid "9e8a8473-0819-4a65-b087-8058d1559715")
 	)
@@ -31558,10 +31902,6 @@
 		(uuid "c2e46585-8de3-4a7b-a6cf-13276b86483d")
 	)
 	(no_connect
-		(at 237.49 67.31)
-		(uuid "d3a08f60-12e5-4e63-a648-eb50fe57a7b0")
-	)
-	(no_connect
 		(at 207.01 64.77)
 		(uuid "e13ef372-936c-43bc-8eb4-02a2984191d4")
 	)
@@ -31569,9 +31909,15 @@
 		(at 237.49 69.85)
 		(uuid "e24ff937-5701-48c1-b746-df424c5032f7")
 	)
-	(no_connect
-		(at 207.01 59.69)
-		(uuid "e2759fca-398e-44fc-b941-eebc39fb870b")
+	(polyline
+		(pts
+			(xy 43.18 119.38) (xy 43.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00867fa6-e6b9-40c1-93ea-a9a5b138c1b8")
 	)
 	(wire
 		(pts
@@ -31662,6 +32008,16 @@
 			(type default)
 		)
 		(uuid "1d88c967-9b90-4d61-a91c-871701c90368")
+	)
+	(polyline
+		(pts
+			(xy 26.67 119.38) (xy 40.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e1bdf3-0b84-40f2-a6d3-bbd7e2156189")
 	)
 	(wire
 		(pts
@@ -31773,6 +32129,16 @@
 		)
 		(uuid "6176980a-3074-42a5-a1de-9d3aff992d5a")
 	)
+	(polyline
+		(pts
+			(xy 57.15 119.38) (xy 57.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c7254b-1605-4710-9537-ba5d95bf83bd")
+	)
 	(wire
 		(pts
 			(xy 95.25 166.37) (xy 104.14 166.37)
@@ -31812,6 +32178,16 @@
 			(type default)
 		)
 		(uuid "7e3a54b6-43d4-4894-ae82-669e23adab35")
+	)
+	(polyline
+		(pts
+			(xy 40.64 119.38) (xy 40.64 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e590142-4d6c-4e9d-bd9b-f7498f25691e")
 	)
 	(wire
 		(pts
@@ -31853,6 +32229,16 @@
 		)
 		(uuid "93504314-3a92-4732-920a-ed564d9c5d2a")
 	)
+	(polyline
+		(pts
+			(xy 26.67 119.38) (xy 26.67 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98170d35-c9de-4880-821b-75784e48e1ae")
+	)
 	(wire
 		(pts
 			(xy 87.63 46.99) (xy 87.63 50.8)
@@ -31885,6 +32271,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 67.31) (xy 242.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a480319-53cf-4c03-ba8c-f7ac13538922")
+	)
+	(wire
+		(pts
 			(xy 60.96 66.04) (xy 60.96 69.85)
 		)
 		(stroke
@@ -31892,6 +32288,16 @@
 			(type default)
 		)
 		(uuid "9ea331d1-1c2c-42f5-aaa2-5b4f50854206")
+	)
+	(polyline
+		(pts
+			(xy 57.15 144.78) (xy 43.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d4e499-3362-4315-89e3-a7184a47f5a6")
 	)
 	(wire
 		(pts
@@ -31902,6 +32308,16 @@
 			(type default)
 		)
 		(uuid "a4f82aad-7fc7-40f2-b9e1-9e857d951b12")
+	)
+	(polyline
+		(pts
+			(xy 43.18 119.38) (xy 57.15 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b7927b-3696-4424-a664-9ee36d2a2645")
 	)
 	(wire
 		(pts
@@ -31925,6 +32341,36 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 115.57) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c328f145-2618-4098-9a25-281e838b76fc")
+	)
+	(wire
+		(pts
+			(xy 185.42 110.49) (xy 185.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f54368-c405-4a48-bfaf-5044b765c459")
+	)
+	(wire
+		(pts
+			(xy 48.26 134.62) (xy 48.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c924dfaa-81c3-443a-a175-52000ed3acde")
+	)
+	(wire
+		(pts
 			(xy 95.25 163.83) (xy 104.14 163.83)
 		)
 		(stroke
@@ -31935,6 +32381,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 134.62) (xy 31.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4d8a12-0b5d-4f56-8240-1d4fc03a873e")
+	)
+	(polyline
+		(pts
+			(xy 40.64 144.78) (xy 26.67 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d683e5f0-2076-4aa9-93b0-e25a0bad3972")
+	)
+	(wire
+		(pts
 			(xy 102.87 49.53) (xy 102.87 50.8)
 		)
 		(stroke
@@ -31942,6 +32408,16 @@
 			(type default)
 		)
 		(uuid "d7f9c56f-8695-4c07-ab88-385e1d2ef345")
+	)
+	(wire
+		(pts
+			(xy 185.42 119.38) (xy 195.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db573961-31ae-4fe4-b378-68ff73e7acd4")
 	)
 	(wire
 		(pts
@@ -32063,6 +32539,16 @@
 		)
 		(uuid "7865e0a7-367e-437d-8348-511004d8cb95")
 	)
+	(label "V3.3LED"
+		(at 48.26 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "959f043d-4533-4e1b-ba72-4272abddd683")
+	)
 	(label "SDA"
 		(at 97.79 166.37 0)
 		(effects
@@ -32082,6 +32568,16 @@
 			(justify left bottom)
 		)
 		(uuid "b3acef93-2587-43b3-aa30-cf031a9782b1")
+	)
+	(label "V5LED"
+		(at 31.75 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bab71b9d-936c-4eb5-ab3f-a95c7a709fa0")
 	)
 	(label "SCL"
 		(at 97.79 163.83 0)
@@ -32112,6 +32608,27 @@
 			(justify left bottom)
 		)
 		(uuid "f1cb700d-ab3e-4131-b100-2d9c135cd7e4")
+	)
+	(global_label "RELAY_LED"
+		(shape input)
+		(at 195.58 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18d507f5-3b04-4fff-998d-37dfbbf9914e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6042 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "UPDI"
 		(shape input)
@@ -32147,6 +32664,27 @@
 		(uuid "35233c77-91f7-4417-8a7e-d357a12114b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 171.2905 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RELAY_LED"
+		(shape output)
+		(at 242.57 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9481cb3d-c3e7-40aa-8166-ef9378651b5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.5942 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32194,6 +32732,73 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f2452e9")
+		(property "Reference" "#PWR028"
+			(at 48.26 146.05 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 143.51 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 139.7 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 139.7 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "966d36e8-fffd-489b-9b84-64b37eb9dfe8")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "#PWR028")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -32297,6 +32902,125 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 48.26 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02f62988-a092-4c11-9176-4f39dc9d92bb")
+		(property "Reference" "R6"
+			(at 49.7586 127.1016 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 49.7586 129.413 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/10watt 1.0Kohms 1%"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Vishay"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW06031K00FKEA"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW0603-1.0K-E3"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-1.00KHTR-ND"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907113"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c47a8892-dcaf-4f53-bcea-9ff786c2c31f")
+		)
+		(pin "2"
+			(uuid "7acf5dc3-4f80-405a-a1b5-2cd7a9be3b5b")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -32924,6 +33648,125 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 48.26 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b3fbfc6-1453-482a-9906-17ea9e78012a")
+		(property "Reference" "D4"
+			(at 49.53 135.89 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Blue"
+			(at 49.53 138.43 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20mA 240mcd Colorless Blue 120° 70mW 3.3V 0603"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "XINGLIGHT"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-150060BS75020"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965807"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c55822a-4a85-4648-b5b2-a02faf7ec2a9")
+		)
+		(pin "2"
+			(uuid "db2fe33e-01b0-4ce3-81d7-4383ba20663c")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -34191,7 +35034,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 80.01 0)
+		(at 267.97 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34200,7 +35043,7 @@
 		(fields_autoplaced yes)
 		(uuid "4586f1a7-b05c-41fe-911c-34148c7e18cb")
 		(property "Reference" "#PWR013"
-			(at 251.46 86.36 0)
+			(at 267.97 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34209,7 +35052,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 85.09 0)
+			(at 267.97 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34217,7 +35060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 80.01 0)
+			(at 267.97 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34226,7 +35069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 80.01 0)
+			(at 267.97 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34235,7 +35078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 80.01 0)
+			(at 267.97 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34257,7 +35100,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 251.46 76.2 0)
+		(at 267.97 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34266,7 +35109,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bc1c9bf-3673-437e-82a5-4a4c5fdd149c")
 		(property "Reference" "C1"
-			(at 255.27 74.9299 0)
+			(at 271.78 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34275,7 +35118,7 @@
 			)
 		)
 		(property "Value" ".1uF"
-			(at 255.27 77.4699 0)
+			(at 271.78 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34284,7 +35127,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 252.4252 80.01 0)
+			(at 268.9352 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34293,7 +35136,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 76.2 0)
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34302,7 +35145,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 251.46 76.2 0)
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34311,7 +35154,7 @@
 			)
 		)
 		(property "MN" "Samsung"
-			(at 251.46 76.2 0)
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34320,7 +35163,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 251.46 76.2 0)
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34328,7 +35171,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 251.46 76.2 0)
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34336,7 +35179,7 @@
 			)
 		)
 		(property "LCSC_MF_PN" ""
-			(at 251.46 76.2 0)
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34344,7 +35187,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 251.46 76.2 0)
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34352,7 +35195,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 251.46 76.2 0)
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34567,6 +35410,73 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 31.75 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56cafd01-3c77-4164-92a0-3ec554228ee9")
+		(property "Reference" "#PWR025"
+			(at 31.75 129.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 31.75 121.92 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 125.73 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 125.73 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36451cf8-56e7-4089-b93e-a30eccd6afdc")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -35315,7 +36225,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 251.46 72.39 0)
+		(at 267.97 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35323,7 +36233,7 @@
 		(dnp no)
 		(uuid "8aa1be0b-c730-4259-969a-55011cfabc65")
 		(property "Reference" "#PWR012"
-			(at 251.46 76.2 0)
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35332,7 +36242,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 251.46 68.834 0)
+			(at 267.97 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35340,7 +36250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 72.39 0)
+			(at 267.97 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35349,7 +36259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 72.39 0)
+			(at 267.97 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35358,7 +36268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 251.46 72.39 0)
+			(at 267.97 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35864,6 +36774,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 185.42 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95b23ad6-510e-45d3-b845-2885c2a68c3d")
+		(property "Reference" "R7"
+			(at 186.9186 102.9716 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 186.9186 105.283 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/10watt 1.0Kohms 1%"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Vishay"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW06031K00FKEA"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW0603-1.0K-E3"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-1.00KHTR-ND"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907113"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bdc3585-3e3d-4f77-b6e4-e39731fa6885")
+		)
+		(pin "2"
+			(uuid "f217028d-facf-48f8-b059-29df27f5a171")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 44.45 179.07 90)
 		(unit 1)
@@ -35925,6 +36954,125 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 31.75 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96b843bf-f3c7-4406-8014-97b0a4b1b6ff")
+		(property "Reference" "R5"
+			(at 33.2486 127.1016 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 33.2486 129.413 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/10Watt 4.7Kohms 5% Commercial Use"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "FOJAN"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J472 TS"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW06034K70JNEAC"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-3993-2-ND"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907166"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3c8f239-5f4b-44d0-be1d-4422d958011e")
+		)
+		(pin "2"
+			(uuid "1fe055b2-5ea4-4fff-aca5-9b9bc0caa27d")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -36549,6 +37697,192 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 31.75 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c640482b-420d-4150-804b-6611d8943274")
+		(property "Reference" "D3"
+			(at 33.02 135.89 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Blue"
+			(at 33.02 138.43 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20mA 240mcd Colorless Blue 120° 70mW 3.3V 0603"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "XINGLIGHT"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-150060BS75020"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965807"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23637548-8ca3-4b56-88ef-65ef86ad1324")
+		)
+		(pin "2"
+			(uuid "f609531b-0e77-4f2a-b9ab-28d2a82b31f9")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 48.26 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9e7fe71-af4e-4907-99c1-deb302bcf5ed")
+		(property "Reference" "#PWR026"
+			(at 48.26 129.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94500bb5-c233-4176-a4fd-dd8726b3d670")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBT3904")
 		(at 100.33 66.04 0)
 		(unit 1)
@@ -37090,6 +38424,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f23efa14-68c2-4a98-b25c-5eaef543e16a")
+		(property "Reference" "#PWR027"
+			(at 31.75 146.05 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 143.51 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 139.7 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 139.7 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee347358-2f40-4f66-ba5a-81360609be0f")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 278.13 161.29 0)
 		(unit 1)
@@ -37408,6 +38809,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 185.42 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa1b1529-6d6f-405e-95bb-4557a081a7df")
+		(property "Reference" "D5"
+			(at 186.69 111.76 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 186.69 114.3 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20mA 330mcd Colorless Red 120° 2.3V 0603"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "XINGLIGHT"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1608SURC-06"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-150060SS75000"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "5962-XL-1608UBC-06ATR-ND"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965799"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b4c3c74-d3e5-4398-8558-1ff8285cc334")
+		)
+		(pin "2"
+			(uuid "667ae841-1f84-4a25-9fe0-2fbd5eb4b4e2")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 142.24 157.48 0)
 		(unit 1)
@@ -37534,6 +39054,73 @@
 			(project ""
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 185.42 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff51c65d-34fe-4728-938c-1394d5a4dd5f")
+		(property "Reference" "#PWR029"
+			(at 185.42 105.41 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7963c642-e1f0-41a9-95f0-9c21d8da94da")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
