@@ -1397,6 +1397,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1408,6 +1409,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2628,6 +2630,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2639,6 +2642,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -31328,6 +31332,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -31339,6 +31344,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -31413,6 +31419,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -31424,6 +31431,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -34334,6 +34342,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -34345,6 +34354,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -34436,6 +34446,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -34447,6 +34458,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -65193,6 +65205,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -65204,6 +65217,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -65313,6 +65327,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -65324,6 +65339,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -65419,7 +65435,7 @@
 				)
 			)
 		)
-		(property "Value" "Blue"
+		(property "Value" "Orange"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "1458fdb9-8251-42c0-8b7d-b58af6e5535e")
@@ -65442,7 +65458,7 @@
 				)
 			)
 		)
-		(property "Description" "20mA 240mcd Colorless Blue 120° 70mW 3.3V 0603"
+		(property "Description" "20mA 315mcd Colorless Orange 120° 50mW 2.3V 0603"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -65467,7 +65483,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1608UBC-04"
+		(property "MPN" "XL-1608UOC-06"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65480,7 +65496,7 @@
 				)
 			)
 		)
-		(property "Mouser" "710-150060BS75020"
+		(property "Mouser" "859-LTST-C190KFKT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65493,7 +65509,7 @@
 				)
 			)
 		)
-		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
+		(property "Digikey" "5962-XL-1608UOC-06TR-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65506,7 +65522,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965807"
+		(property "LCSC" "C965800"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66298,6 +66314,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -66309,6 +66326,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)

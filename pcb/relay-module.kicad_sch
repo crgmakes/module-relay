@@ -37714,7 +37714,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Blue"
+		(property "Value" "Orange"
 			(at 33.02 138.43 90)
 			(effects
 				(font
@@ -37743,7 +37743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20mA 240mcd Colorless Blue 120° 70mW 3.3V 0603"
+		(property "Description" "20mA 315mcd Colorless Orange 120° 50mW 2.3V 0603"
 			(at 31.75 137.16 0)
 			(effects
 				(font
@@ -37761,7 +37761,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "XL-1608UBC-04"
+		(property "MPN" "XL-1608UOC-06"
 			(at 31.75 137.16 0)
 			(effects
 				(font
@@ -37770,7 +37770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "710-150060BS75020"
+		(property "Mouser" "859-LTST-C190KFKT"
 			(at 31.75 137.16 0)
 			(effects
 				(font
@@ -37780,7 +37780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
+		(property "Digikey" "5962-XL-1608UOC-06TR-ND"
 			(at 31.75 137.16 0)
 			(effects
 				(font
@@ -37790,7 +37790,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965807"
+		(property "LCSC" "C965800"
 			(at 31.75 137.16 0)
 			(effects
 				(font
