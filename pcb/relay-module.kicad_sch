@@ -850,9 +850,8 @@
 				(at 0 2.794 0)
 				(effects
 					(font
-						(size 1.778 1.778)
-						(thickness 0.3556)
-						(bold yes)
+						(size 1 1)
+						(thickness 0.125)
 					)
 					(justify left bottom)
 				)
@@ -869,7 +868,7 @@
 				)
 			)
 			(property "Footprint" "CRGM Connector:SM04B-SRSS-TB"
-				(at 3.556 8.89 0)
+				(at 3.048 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -877,8 +876,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+				(at 3.556 -27.432 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -886,8 +885,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "JST SH 1.0mm 4 Position"
-				(at 3.81 6.604 0)
+			(property "Description" "4 Position, 1mm pitch"
+				(at 3.048 -16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -896,7 +895,7 @@
 				)
 			)
 			(property "MN" "JST"
-				(at 0 0 0)
+				(at 3.302 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -904,8 +903,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SM04B-SRSS-TB"
-				(at 0 0 0)
+			(property "MPN" "BM04B-SRSS-TBT(LF)(SN)"
+				(at 3.81 -18.542 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -913,8 +912,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" ""
-				(at 0 0 0)
+			(property "Mouser" "306-BM04BSRSSTBTLFSN"
+				(at 3.556 -21.082 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -922,8 +921,8 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" ""
-				(at 0 0 0)
+			(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
+				(at 3.556 -23.368 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -932,7 +931,7 @@
 				)
 			)
 			(property "LCSC" "C2763614"
-				(at 0 0 0)
+				(at 3.048 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -29980,9 +29979,8 @@
 				(at 0 2.794 0)
 				(effects
 					(font
-						(size 1.778 1.778)
-						(thickness 0.3556)
-						(bold yes)
+						(size 1 1)
+						(thickness 0.125)
 					)
 					(justify left bottom)
 				)
@@ -29999,7 +29997,7 @@
 				)
 			)
 			(property "Footprint" "CRGM Connector:SM04B-SRSS-TB"
-				(at 3.556 8.89 0)
+				(at 3.048 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30007,8 +30005,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+				(at 3.556 -27.432 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30016,8 +30014,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "JST SH 1.0mm 4 Position"
-				(at 3.81 6.604 0)
+			(property "Description" "4 Position, 1mm pitch"
+				(at 3.048 -16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30026,7 +30024,7 @@
 				)
 			)
 			(property "MN" "JST"
-				(at 0 0 0)
+				(at 3.302 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30034,8 +30032,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SM04B-SRSS-TB"
-				(at 0 0 0)
+			(property "MPN" "BM04B-SRSS-TBT(LF)(SN)"
+				(at 3.81 -18.542 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30043,8 +30041,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" ""
-				(at 0 0 0)
+			(property "Mouser" "306-BM04BSRSSTBTLFSN"
+				(at 3.556 -21.082 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30052,8 +30050,8 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" ""
-				(at 0 0 0)
+			(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
+				(at 3.556 -23.368 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30062,7 +30060,7 @@
 				)
 			)
 			(property "LCSC" "C2763614"
-				(at 0 0 0)
+				(at 3.048 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32924,38 +32922,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 278.13 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 278.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 278.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 278.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -33071,6 +33047,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c47a8892-dcaf-4f53-bcea-9ff786c2c31f")
 		)
@@ -33150,44 +33135,49 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Digikey" ""
 			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC_MF_PN" ""
+		(property "Mouser" ""
 			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C15849"
 			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Sim.Enable" ""
 			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -33260,36 +33250,13 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 196.85 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 196.85 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 196.85 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 196.85 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -33429,38 +33396,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Height" ""
-			(at 250.19 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 250.19 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 250.19 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 250.19 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" ""
@@ -33482,6 +33418,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 250.19 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 250.19 173.99 0)
 			(effects
 				(font
@@ -33627,38 +33572,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Height" ""
-			(at 148.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 148.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 148.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 148.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" ""
@@ -33680,6 +33594,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 148.59 40.64 0)
 			(effects
 				(font
@@ -33871,6 +33794,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c55822a-4a85-4648-b5b2-a02faf7ec2a9")
 		)
@@ -34024,6 +33956,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC" "C7029760"
 			(at 118.11 45.72 0)
 			(effects
@@ -34033,36 +33983,13 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 118.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 118.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 118.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "COM_1"
@@ -34344,44 +34271,58 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LTV-356T"
 			(at 72.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Digikey" ""
 			(at 72.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC_MF_PN" ""
+		(property "Mouser" ""
 			(at 72.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C125117"
 			(at 72.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Sim.Enable" ""
 			(at 72.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Lite-On"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -34460,36 +34401,13 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 222.25 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 222.25 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 222.25 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 222.25 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -34573,6 +34491,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC" "C1527448"
 			(at 135.89 57.15 0)
 			(effects
@@ -34582,36 +34518,13 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 135.89 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 135.89 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 135.89 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 135.89 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "P$1"
@@ -34685,44 +34598,58 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ATTINY1616-MNR"
 			(at 222.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Digikey" ""
 			(at 222.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC_MF_PN" ""
+		(property "Mouser" ""
 			(at 222.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C507118"
 			(at 222.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Sim.Enable" ""
 			(at 222.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Microchip Tech"
+			(at 222.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "18"
@@ -34878,6 +34805,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 170.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3259efbc-f39d-495e-8acb-9274b1280a5d")
 		)
@@ -34944,6 +34880,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2464c730-de6a-442b-9b06-0e7338144758")
 		)
@@ -34963,7 +34908,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "39fc936e-928f-416d-b80c-4d1da554f3ff")
 		(property "Reference" "J1"
 			(at 150.622 172.72 0)
@@ -35029,6 +34974,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 149.86 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 149.86 167.64 0)
 			(effects
 				(font
@@ -35126,38 +35080,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 278.13 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 278.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 278.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 278.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -35224,38 +35156,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 278.13 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 278.13 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 278.13 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 278.13 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 278.13 173.99 0)
 			(effects
@@ -35275,6 +35175,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 278.13 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 278.13 173.99 0)
 			(effects
 				(font
@@ -35422,44 +35331,31 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "LCSC" "C15849"
 			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC_MF_PN" ""
+		(property "Sim.Enable" ""
 			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 267.97 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 267.97 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -35796,6 +35692,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 137.16 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01c4ad8f-dd37-49f9-b21e-5eeb59511477")
 		)
@@ -35901,7 +35806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRGM Connector:SM04B-SRSS-TB"
+		(property "Footprint" "CRGM Connector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 89.154 155.702 0)
 			(effects
 				(font
@@ -35946,6 +35851,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "306-SM04BSRSSTBTLFSN"
+			(at 82.55 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "455-SM04B-SRSS-TBTR-ND"
+			(at 82.55 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC" "C2763614"
 			(at 82.55 161.29 0)
 			(effects
@@ -35955,48 +35878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 82.55 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 82.55 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 82.55 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 82.55 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 82.55 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
+		(property "Sim.Enable" ""
 			(at 82.55 161.29 0)
 			(effects
 				(font
@@ -36081,44 +35963,40 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603WAF1002T5E"
 			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC_MF_PN" ""
+		(property "LCSC" "C25804"
 			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "MN" "Uni-Royal"
 			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -36195,38 +36073,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Height" ""
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" ""
@@ -36248,6 +36095,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 255.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 255.27 45.72 0)
 			(effects
 				(font
@@ -36466,38 +36322,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Height" ""
-			(at 264.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 264.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 264.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 264.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" ""
@@ -36519,6 +36344,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 264.16 173.99 0)
 			(effects
 				(font
@@ -36656,36 +36490,13 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 209.55 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 209.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 209.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 209.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -36752,44 +36563,40 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603WAF1002T5E"
 			(at 262.89 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 262.89 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC_MF_PN" ""
+		(property "LCSC" "C25804"
 			(at 262.89 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "MN" "Uni-Royal"
 			(at 262.89 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 262.89 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -36935,38 +36742,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 278.13 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 278.13 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 278.13 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 278.13 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -37040,38 +36825,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Height" ""
-			(at 148.59 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 148.59 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 148.59 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 148.59 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" ""
@@ -37093,6 +36847,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 148.59 48.26 0)
 			(effects
 				(font
@@ -37213,6 +36976,15 @@
 				(font
 					(size 1 1)
 					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -37403,6 +37175,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3c8f239-5f4b-44d0-be1d-4422d958011e")
 		)
@@ -37473,36 +37254,13 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 234.95 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 234.95 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 234.95 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 234.95 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -37567,44 +37325,58 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603WAF2200T5E"
 			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Digikey" ""
 			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC_MF_PN" ""
+		(property "Mouser" ""
 			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C22962"
 			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Sim.Enable" ""
 			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Uni-Royal"
+			(at 57.15 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -37653,7 +37425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRGM Connector:SM04B-SRSS-TB"
+		(property "Footprint" "CRGM Connector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 50.546 148.59 0)
 			(effects
 				(font
@@ -37662,7 +37434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 46.99 157.48 0)
 			(effects
 				(font
@@ -37671,7 +37443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "JST SH 1.0mm 4 Position"
+		(property "Description" "4 Position, 1mm pitch"
 			(at 50.8 150.876 0)
 			(effects
 				(font
@@ -37698,6 +37470,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "306-SM04BSRSSTBTLFSN"
+			(at 46.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "455-SM04B-SRSS-TBTR-ND"
+			(at 46.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC" "C2763614"
 			(at 46.99 157.48 0)
 			(effects
@@ -37707,16 +37497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 46.99 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
+		(property "Sim.Enable" ""
 			(at 46.99 157.48 0)
 			(effects
 				(font
@@ -37843,7 +37624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRGM Connector:SM04B-SRSS-TB"
+		(property "Footprint" "CRGM Connector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 50.546 162.56 0)
 			(effects
 				(font
@@ -37852,7 +37633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -37861,7 +37642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "JST SH 1.0mm 4 Position"
+		(property "Description" "4 Position, 1mm pitch"
 			(at 50.8 164.846 0)
 			(effects
 				(font
@@ -37888,6 +37669,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "306-SM04BSRSSTBTLFSN"
+			(at 46.99 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "455-SM04B-SRSS-TBTR-ND"
+			(at 46.99 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC" "C2763614"
 			(at 46.99 171.45 0)
 			(effects
@@ -37897,48 +37696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 46.99 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 46.99 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 46.99 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 46.99 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 46.99 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
+		(property "Sim.Enable" ""
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -38115,6 +37873,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 167.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9df862f6-ef2e-43fa-ab7f-3fcdc6ed3171")
 		)
@@ -38227,6 +37994,15 @@
 				(font
 					(size 1 1)
 					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -38379,6 +38155,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC" "C909754"
 			(at 100.33 66.04 0)
 			(effects
@@ -38388,36 +38182,22 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 100.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC_MF_PN" ""
+		(property "MN" "GOODWORK"
 			(at 100.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -38558,44 +38338,58 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BAT48JFILM"
 			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Digikey" ""
 			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC_MF_PN" ""
+		(property "Mouser" ""
 			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C2798199"
 			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Sim.Enable" ""
 			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MN" "STMicroelectronics"
+			(at 102.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -38666,44 +38460,58 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603WAF2200T5E"
 			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Mouser" ""
 			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC_MF_PN" ""
+		(property "Digikey" ""
 			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C22962"
 			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Sim.Enable" ""
 			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Uni-Royal"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -38983,38 +38791,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Sim.Enable" ""
 			(at 278.13 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 278.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 278.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 278.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -39085,38 +38871,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Height" ""
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" ""
@@ -39138,6 +38893,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 127 66.04 0)
 			(effects
 				(font
@@ -39220,38 +38984,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Height" ""
-			(at 144.78 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_MF_PN" ""
-			(at 144.78 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 144.78 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 144.78 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" ""
@@ -39273,6 +39006,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 144.78 66.04 0)
 			(effects
 				(font
@@ -39393,6 +39135,15 @@
 				(font
 					(size 1 1)
 					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -39552,6 +39303,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 87.63 46.99 0)
 			(effects
 				(font
