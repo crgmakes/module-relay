@@ -78,7 +78,6 @@ jobs:
         sed -i "s!<<tag>>!v0.0.0!" relay-module.kicad_pcb
 
     # generates fab files for the single PCB, includes gerber, drill, ibom, schematic, images, 3d model, and renders
-    # NOTE: only run if this is a release
     - name: Generate Release Fabrication Files
       run: |
         echo "Working Directory: ${GITHUB_WORKSPACE}"
@@ -88,7 +87,6 @@ jobs:
         mv production/relay-module-release.zip ../../relay-module-release-v0.0.0.zip
         # relay-module-release-v0.0.0.zip now in home directory
 
-    # only generate panel during a release
     # generates fab files for the panel PCB, includes gerber, drill, images - does NOT include ibom, 3d model, schematic, or renders
     - name: Generate PCB Panel for Release
       if: github.event_name == 'release'
@@ -108,7 +106,6 @@ jobs:
         # home now contains relay-module-panel-release-v0.0.0.zip
 
     # Upload release fab artifacts to workflow
-    # NOTE: only runs during a release
     - name: Upload Release Artifacts
       uses: actions/upload-artifact@v4
       with:
@@ -118,13 +115,3 @@ jobs:
           relay-module-panel-release-v0.0.0.zip
         if-no-files-found: warn
         retention-days: 30
-
-    # Upload release fab artifacts to release
-    # NOTE: only runs during a release
-    - name: Upload files to release area
-      uses: softprops/action-gh-release@v1
-      with:
-        name: aquarius-relay-module-v0.0.0
-        files: |
-          relay-module-release-v0.0.0.zip
-          relay-module-panel-release-v0.0.0.zip
