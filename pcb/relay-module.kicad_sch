@@ -33310,7 +33310,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "014cda66-b132-422f-a3af-7e64e828cf98")
 		(property "Reference" "H1"
@@ -33618,7 +33618,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "039dda5f-ff14-4f4a-913e-444f4046c333")
 		(property "Reference" "S3"
@@ -33749,7 +33749,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09d9148f-1229-4803-811b-930601a71154")
 		(property "Reference" "LOGO1"
@@ -34126,7 +34126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_ISO14580_Pad"
 			(at 148.59 40.64 0)
 			(effects
 				(font
@@ -35092,7 +35092,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3053a7fa-8d33-44ff-a401-d20328fe02e4")
 		(property "Reference" "S2"
@@ -35521,7 +35521,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "39fc936e-928f-416d-b80c-4d1da554f3ff")
 		(property "Reference" "J1"
 			(at 139.192 116.84 0)
@@ -35629,7 +35629,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ac1986b-5531-49fd-a2e7-2b1f49a44339")
 		(property "Reference" "H3"
@@ -35703,7 +35703,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "427a67e8-39bb-47e8-9431-df44e1bff056")
 		(property "Reference" "LOGO5"
@@ -36855,7 +36855,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dbdf153-f68b-44ae-8cca-68e0ea6ad0db")
 		(property "Reference" "LOGO3"
@@ -37180,7 +37180,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8be18f9b-5f68-4823-b4bb-fc405415f4e9")
 		(property "Reference" "S4"
@@ -37426,7 +37426,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "934edb26-4e56-4000-925b-55a79d442001")
 		(property "Reference" "H2"
@@ -37522,7 +37522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_ISO14580_Pad"
 			(at 148.59 48.26 0)
 			(effects
 				(font
@@ -38031,7 +38031,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "974dd524-8ecd-4797-b667-2980ca8bec21")
 		(property "Reference" "S1"
@@ -40375,7 +40375,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f32028a5-6e48-4576-ae68-1f6cfc1f1bd3")
 		(property "Reference" "H4"
@@ -40468,7 +40468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_ISO14580_Pad"
 			(at 127 66.04 0)
 			(effects
 				(font
@@ -40572,7 +40572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_ISO14580_Pad"
 			(at 144.78 66.04 0)
 			(effects
 				(font
