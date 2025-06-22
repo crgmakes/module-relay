@@ -2,12 +2,12 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "da41c42a-9ed0-4d00-8d9b-94045d0d6b68")
+	(uuid "d97a3a17-6404-447d-846a-25dee8b042fd")
 	(paper "A4")
 	(title_block
 		(title "Relay Module")
 		(date "2025-03-22")
-		(rev "1.0")
+		(rev "1.1")
 		(company "CRG Makes")
 		(comment 1 "Aquarius")
 	)
@@ -25,7 +25,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "V250LA40BP"
 				(at 6.35 -5.08 90)
 				(effects
 					(font
@@ -43,8 +43,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Littelfuse-V250LA40BP_C1527448.pdf"
+				(at 3.556 -20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -61,8 +61,26 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "MN" "Littlefuse"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "V250LA40BP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1527448"
+				(at 0 -23.368 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -217,10 +235,11 @@
 						(bold yes)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "CRG Makes v105:RELAY_PR24-5V-900-1A"
-				(at 0 0 0)
+			(property "Footprint" "CRG Makes:RELAY_PR24-5V-900-1A"
+				(at 0.508 -9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -228,8 +247,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/1628/pr24-3510756.pdf"
+				(at 1.27 -20.828 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -238,6 +257,23 @@
 				)
 			)
 			(property "Description" "Power relay, 40A, Normally Open\n\nhttps://www.mouser.com/ProductDetail/179-PR24-5V-900-1A\nhttps://jlcpcb.com/partdetail/Cui-PR24_5V_9001A/C7029760"
+				(at 2.54 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MN" "Same Sky"
+				(at 0 -22.606 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PR24-5V-900-1A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -246,8 +282,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "LCSC" "C7029760"
+				(at 0.254 -24.384 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -601,6 +637,252 @@
 						)
 					)
 					(number "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1424,34 +1706,22 @@
 			(symbol "MMBT3904_0_1"
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -1469,9 +1739,35 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "MMBT3904_1_1"
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1481,11 +1777,9 @@
 						(type outline)
 					)
 				)
-			)
-			(symbol "MMBT3904_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.715)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -1893,8 +2187,8 @@
 		)
 	)
 	(rectangle
-		(start 16.51 16.51)
-		(end 176.53 114.3)
+		(start 15.24 15.24)
+		(end 175.26 88.9)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -1903,23 +2197,23 @@
 		(fill
 			(type none)
 		)
-		(uuid 5aea6e65-683b-45c6-8cb8-dc2cd2fa37b4)
+		(uuid 00fe932e-fa39-446f-86cb-2265cb0008fc)
 	)
 	(text "Relay"
 		(exclude_from_sim no)
-		(at 27.686 108.966 0)
+		(at 24.384 84.582 0)
 		(effects
 			(font
-				(size 4.445 4.445)
+				(size 3.175 3.175)
 				(thickness 0.889)
 				(bold yes)
 			)
 		)
-		(uuid "da6adcf4-7d54-4ee0-ab7e-7cacb9cfc89d")
+		(uuid "db292913-49d0-48fc-bd54-0b20ee70b9bf")
 	)
-	(text_box "RELAY:\n40A @ 250VAC, 40A @ 24VDC\n5V coil, 900mW, 27.8Ω\n1 Form A\n\nMOV:\nVvar = 354V\nVclamp = 620V\nVmax = 250V\nV250LA40BP ~MOV-20D331K\n"
+	(text_box "RELAY:\n40A @ 250VAC, 40A @ 24VDC\n5V coil, 900mW, 27.8Ω\n1 Form A\n\nMOV:\nVvar = 354V\nVclamp = 620V\nVmax = 250V\nV250LA40BP ~ MOV-20D331K\n"
 		(exclude_from_sim no)
-		(at 130.81 86.36 0)
+		(at 17.78 17.78 0)
 		(size 41.91 24.13)
 		(margins 1.0795 1.0795 1.0795 1.0795)
 		(stroke
@@ -1939,329 +2233,375 @@
 			)
 			(justify left top)
 		)
-		(uuid "42629f6a-7598-44b5-aff5-3c34ec25deda")
+		(uuid "216e018a-ce3f-4d60-847f-fd0f9d8de041")
 	)
 	(junction
-		(at 104.14 41.91)
+		(at 102.87 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ca43e52-09af-41aa-aa19-0a2cc4c1bf75")
+		(uuid "21f960f3-48f8-47a1-826c-7b368c831367")
 	)
 	(junction
-		(at 104.14 52.07)
+		(at 40.64 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "56da445a-5bb0-41ae-83a8-ee328fbc6f79")
+		(uuid "2830f39f-0485-4e94-bf1a-f447d754a24b")
 	)
 	(junction
-		(at 137.16 49.53)
+		(at 135.89 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "869af532-9ce7-432f-b6a4-30a848efe9ed")
+		(uuid "9658104f-7eb0-4436-8035-71cfa684b94c")
 	)
 	(junction
-		(at 137.16 67.31)
+		(at 135.89 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a90ac08c-5ec4-4f9f-b210-3da300b57612")
+		(uuid "d19267e7-9eba-4c0b-a57e-ad85b4a117de")
+	)
+	(junction
+		(at 102.87 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7676209-e06a-4cd3-989c-67c1b8ede69f")
 	)
 	(no_connect
-		(at 129.54 44.45)
-		(uuid "fc71ec50-ab37-4560-9a32-a18019af0baa")
+		(at 128.27 43.18)
+		(uuid "acaa4f75-9bb7-4e16-a696-96ea22c74360")
 	)
 	(wire
 		(pts
-			(xy 109.22 41.91) (xy 104.14 41.91)
+			(xy 38.1 60.96) (xy 40.64 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09d96d42-f28d-4915-b815-718ceb366257")
+		(uuid "10842f1a-b8c0-41f4-a2f4-aa837118c926")
 	)
 	(wire
 		(pts
-			(xy 104.14 39.37) (xy 104.14 41.91)
+			(xy 107.95 50.8) (xy 102.87 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1053fdb7-143e-4f69-9b53-9447bbe52049")
+		(uuid "1613951b-4959-47af-b3b0-27ed65d98882")
 	)
 	(wire
 		(pts
-			(xy 104.14 72.39) (xy 104.14 74.93)
+			(xy 87.63 50.8) (xy 102.87 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10bf0292-402b-4bde-b1f7-bb53c1c1ab15")
+		(uuid "1af14c7f-7a4b-4699-bd25-a237b171168b")
 	)
 	(wire
 		(pts
-			(xy 104.14 41.91) (xy 104.14 43.18)
+			(xy 128.27 40.64) (xy 146.05 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d4b947e-0ac7-4189-985b-19208d49e241")
+		(uuid "277df423-7c74-4efb-bea2-39e0f5ee43cb")
 	)
 	(wire
 		(pts
-			(xy 137.16 49.53) (xy 137.16 54.61)
+			(xy 64.77 66.04) (xy 60.96 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cd57cba-235e-48e5-a297-68adb595c8d3")
+		(uuid "32699611-d73a-4bae-8142-997a18c4c2a8")
 	)
 	(wire
 		(pts
-			(xy 93.98 67.31) (xy 96.52 67.31)
+			(xy 40.64 60.96) (xy 53.34 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "332b65a9-8ed5-4f66-b316-37cf8c3b17cb")
+		(uuid "392fcebf-7bb7-474f-96b2-ead20043232c")
 	)
 	(wire
 		(pts
-			(xy 109.22 52.07) (xy 104.14 52.07)
+			(xy 40.64 58.42) (xy 40.64 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e449bb6-51a4-481b-894d-5ba2d71dd79c")
+		(uuid "3c597673-7887-4a2d-9a97-f425002a2802")
 	)
 	(wire
 		(pts
-			(xy 137.16 67.31) (xy 143.51 67.31)
+			(xy 107.95 40.64) (xy 102.87 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b3889fe-84d1-41d1-a5fd-b6b11136ed6a")
+		(uuid "3eb90805-3d44-496f-b7e2-d3cbaad1280b")
 	)
 	(wire
 		(pts
-			(xy 83.82 62.23) (xy 83.82 58.42)
+			(xy 135.89 66.04) (xy 142.24 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6798daab-9422-4293-8e59-854490f71eda")
+		(uuid "403c20d3-0fd3-463d-8017-6ca48e43979f")
 	)
 	(wire
 		(pts
-			(xy 137.16 62.23) (xy 137.16 67.31)
+			(xy 102.87 38.1) (xy 102.87 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bce2d1c-7216-4e9a-b580-3b82f7772672")
+		(uuid "407b2819-aa00-460f-9496-33460d460646")
 	)
 	(wire
 		(pts
-			(xy 81.28 67.31) (xy 86.36 67.31)
+			(xy 102.87 49.53) (xy 102.87 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ed24fd0-e1de-4c7a-9d74-ebd9d3b58785")
+		(uuid "4b3c9340-ac1d-439f-b879-7e6bc47c64ab")
 	)
 	(wire
 		(pts
-			(xy 104.14 50.8) (xy 104.14 52.07)
+			(xy 80.01 66.04) (xy 85.09 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2102956-7c2b-406c-9a2e-4dfb40cc3f7d")
+		(uuid "7339f678-c613-4e2a-afe3-011abdcfbd54")
 	)
 	(wire
 		(pts
-			(xy 129.54 49.53) (xy 137.16 49.53)
+			(xy 128.27 48.26) (xy 135.89 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2c4f214-37ea-4f02-b298-ada4713165fe")
+		(uuid "7736ac1b-2996-4bde-a036-1907d472c51f")
 	)
 	(wire
 		(pts
-			(xy 104.14 52.07) (xy 104.14 62.23)
+			(xy 135.89 60.96) (xy 135.89 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4245a49-8ba2-43f1-bd1c-c7b2487c223a")
+		(uuid "8945f84a-338b-4a3d-acd8-95d8e05fb944")
 	)
 	(wire
 		(pts
-			(xy 39.37 62.23) (xy 54.61 62.23)
+			(xy 129.54 66.04) (xy 135.89 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bad45459-29bc-49fa-81a5-15d540c1e796")
+		(uuid "8a60ef96-7568-441a-8bd3-df247a26b4bb")
 	)
 	(wire
 		(pts
-			(xy 62.23 62.23) (xy 66.04 62.23)
+			(xy 135.89 48.26) (xy 146.05 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c85ee374-ceec-474d-bdc3-77fc63ef4021")
+		(uuid "8fb00cf2-2132-4ab2-9127-e66e58fe0be8")
 	)
 	(wire
 		(pts
-			(xy 129.54 41.91) (xy 147.32 41.91)
+			(xy 87.63 46.99) (xy 87.63 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1eb9ad0-5b82-4100-ac70-e19f768f82bc")
+		(uuid "8fe8f891-eacc-4295-9a2a-d4b9775f8320")
 	)
 	(wire
 		(pts
-			(xy 81.28 62.23) (xy 83.82 62.23)
+			(xy 60.96 66.04) (xy 60.96 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6827c62-4e6a-48e5-8bbf-136d58e353b5")
+		(uuid "9e8298ea-fff2-463f-8c8e-070fae869c30")
 	)
 	(wire
 		(pts
-			(xy 130.81 67.31) (xy 137.16 67.31)
+			(xy 102.87 71.12) (xy 102.87 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d95085c6-fbbe-431e-9bee-bb5cb6bb85da")
+		(uuid "bddf5fb1-f292-463f-9b0b-e9bd66cb8fcf")
 	)
 	(wire
 		(pts
-			(xy 62.23 67.31) (xy 62.23 71.12)
+			(xy 82.55 60.96) (xy 82.55 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db56b0d3-6790-40e8-a2a2-c7dfc22f3f2a")
+		(uuid "c747d6a6-e4a5-418a-8857-a15190c70678")
 	)
 	(wire
 		(pts
-			(xy 66.04 67.31) (xy 62.23 67.31)
+			(xy 102.87 50.8) (xy 102.87 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed709264-bcb9-4acb-8f0a-f84047fc52fa")
+		(uuid "e7d33250-e2cb-48a7-9e2a-b373719a6125")
 	)
 	(wire
 		(pts
-			(xy 137.16 49.53) (xy 147.32 49.53)
+			(xy 60.96 60.96) (xy 64.77 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9c7fb80-0ede-4e3f-a756-72669672025d")
+		(uuid "ebf4773b-05a0-45ef-88f8-a95eb7fed2df")
 	)
-	(label "RELAY_CTRL"
-		(at 40.64 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 102.87 40.64) (xy 102.87 41.91)
 		)
-		(uuid "11d991aa-65c4-48e9-8842-65f1c2640a8a")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6f5bad-1785-4e1d-81f7-b9b3b44448cc")
 	)
-	(label "NEUTRAL"
-		(at 133.35 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 92.71 66.04) (xy 95.25 66.04)
 		)
-		(uuid "45d124a3-8508-4b2f-b119-f08dd47f94fd")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f341d463-79c9-478f-90b1-85d35baf18cc")
 	)
-	(label "LOAD_IN"
-		(at 138.43 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 80.01 60.96) (xy 82.55 60.96)
 		)
-		(uuid "58a3bf93-4fda-430f-917a-d48b0f0f6ca9")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4885a66-2fb2-4901-a440-e221695e8320")
 	)
-	(label "RELAY_GND"
-		(at 104.14 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 135.89 48.26) (xy 135.89 53.34)
 		)
-		(uuid "6c3f34ee-8b78-47c3-aeae-f62c99e9aa92")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74a97fe-a448-43a9-949a-b2eac2e4ee74")
 	)
 	(label "LOAD_OUT"
-		(at 138.43 49.53 0)
+		(at 137.16 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "be8c9b62-135c-4424-91b4-d651bdeb23d2")
+		(uuid "62afeab7-8802-4ba0-9745-87b7f43ace5c")
 	)
-	(hierarchical_label "RELAY_CTRL"
+	(label "RELAY_CTRL"
+		(at 102.87 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "636cce45-f4b9-47e0-93bb-285584364322")
+	)
+	(label "LOAD_IN"
+		(at 137.16 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac415a04-a821-4fe7-a4d5-fcc02c15d045")
+	)
+	(label "NEUTRAL"
+		(at 132.08 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f29c4db4-148f-495d-8d00-fe6f06440cf8")
+	)
+	(global_label "RELAY_EN"
 		(shape input)
-		(at 39.37 62.23 180)
+		(at 38.1 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e91607a7-e567-41a8-9bf5-ef9c1b604918")
+		(uuid "b252b54a-26cc-4b5c-bbd1-ee248c573834")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.0434 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 149.86 41.91 270)
+		(lib_id "Device:C")
+		(at 41.91 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13eb1c4a-c6cd-436b-bb74-8656f4d0f161")
-		(property "Reference" "P3"
-			(at 153.67 41.9099 90)
+		(uuid "038dc811-4f38-4c38-8a33-c92e90a50d51")
+		(property "Reference" "C2"
+			(at 45.72 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,18 +2609,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 153.67 43.1799 90)
+		(property "Value" ".1uF"
+			(at 45.72 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 149.86 41.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 42.8752 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2628,189 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 41.91 0)
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Samsung"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd7101cd-fe53-4070-9e70-3274f99ec552")
+		)
+		(pin "2"
+			(uuid "cc260442-2caa-4080-880b-c06102d240da")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 41.91 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11a1e09d-892c-46eb-8324-5c83b08324fb")
+		(property "Reference" "#PWR03"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49894a8b-6a25-4624-9618-c8dc0d9e8382")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 148.59 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13eb1c4a-c6cd-436b-bb74-8656f4d0f161")
+		(property "Reference" "P3"
+			(at 152.4 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 152.4 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2819,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 149.86 41.91 0)
+			(at 148.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,11 +2828,39 @@
 			)
 		)
 		(property "MPN" ""
-			(at 149.86 41.91 0)
+			(at 148.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2319,7 +2868,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "P3")
 					(unit 1)
 				)
@@ -2328,36 +2877,33 @@
 	)
 	(symbol
 		(lib_id "CRG Makes:PR24-5V-900-1A")
-		(at 119.38 46.99 0)
+		(at 118.11 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "245c1792-5574-420e-8d40-be3b9729c9ac")
 		(property "Reference" "K1"
-			(at 119.38 35.56 0)
+			(at 118.11 34.29 0)
 			(effects
 				(font
-					(size 1.778 1.778)
-					(thickness 0.3556)
-					(bold yes)
+					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 			)
 		)
 		(property "Value" "PR24-5V-900-1A"
-			(at 119.38 38.1 0)
+			(at 118.11 36.83 0)
 			(effects
 				(font
-					(size 1.778 1.778)
-					(thickness 0.3556)
-					(bold yes)
+					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 			)
 		)
 		(property "Footprint" "CRG Makes:RELAY_PR24-5V-900-1A"
-			(at 119.38 46.99 0)
+			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,8 +2911,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312271407_CUI-PR24-5V-900-1A_C7029760.pdf"
-			(at 119.38 46.99 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1628/pr24-3510756.pdf"
+			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +2921,7 @@
 			)
 		)
 		(property "Description" "Power relay, 40A, Normally Open\n\nhttps://www.mouser.com/ProductDetail/179-PR24-5V-900-1A\nhttps://jlcpcb.com/partdetail/Cui-PR24_5V_9001A/C7029760"
-			(at 119.38 46.99 0)
+			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,8 +2929,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C7029760"
-			(at 119.38 46.99 0)
+		(property "MN" "Same Sky"
+			(at 117.602 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,12 +2938,40 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 119.38 46.99 0)
+		(property "MPN" "PR24-5V-900-1A"
+			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7029760"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "COM_1"
@@ -2417,7 +2991,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "K1")
 					(unit 1)
 				)
@@ -2426,7 +3000,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 71.12 0)
+		(at 60.96 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2435,7 +3009,7 @@
 		(fields_autoplaced yes)
 		(uuid "288b92f5-7331-4b79-aec1-bf713b72d446")
 		(property "Reference" "#PWR02"
-			(at 62.23 77.47 0)
+			(at 60.96 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +3018,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 76.2 0)
+			(at 60.96 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +3026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 71.12 0)
+			(at 60.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +3035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 71.12 0)
+			(at 60.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +3044,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 71.12 0)
+			(at 60.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +3057,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -2492,7 +3066,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-356T")
-		(at 73.66 64.77 0)
+		(at 72.39 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2501,7 +3075,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cd288a2-ee43-45ed-a980-c45913ffa0e5")
 		(property "Reference" "U3"
-			(at 73.66 55.88 0)
+			(at 72.39 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +3083,7 @@
 			)
 		)
 		(property "Value" "LTV-356T"
-			(at 73.66 58.42 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +3091,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
-			(at 68.58 69.85 0)
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +3102,7 @@
 			)
 		)
 		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2001-010/S_110_LTV-356T%2020140520.pdf"
-			(at 73.66 64.77 0)
+			(at 72.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +3112,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 80V, CTR 50%, SO-4"
-			(at 73.66 64.77 0)
+			(at 72.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,12 +3120,49 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 73.66 64.77 0)
+		(property "MPN" "LTV-356T"
+			(at 72.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C125117"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Lite-On"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2568,7 +3179,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "U3")
 					(unit 1)
 				)
@@ -2577,16 +3188,15 @@
 	)
 	(symbol
 		(lib_id "CRG Makes:MOV20D331K")
-		(at 137.16 58.42 0)
+		(at 135.89 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "326df162-1f77-4496-9793-4dd1e3e784c3")
 		(property "Reference" "MOV1"
-			(at 140.97 57.7849 0)
+			(at 139.7 56.5149 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -2595,7 +3205,7 @@
 			)
 		)
 		(property "Value" "V250LA40BP"
-			(at 140.97 60.325 0)
+			(at 139.7 59.055 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -2604,7 +3214,7 @@
 			)
 		)
 		(property "Footprint" "CRG Makes:V250LA40BP"
-			(at 137.16 71.374 0)
+			(at 135.89 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +3223,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Littelfuse-V250LA40BP_C1527448.pdf"
-			(at 137.16 58.42 0)
+			(at 135.89 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +3232,7 @@
 			)
 		)
 		(property "Description" "Metal Oxide Varistor\nMOV-20D331K https://jlcpcb.com/partdetail/Bourns-MOV20D331K/C1528488"
-			(at 138.176 74.93 0)
+			(at 136.906 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,8 +3240,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C1527448"
-			(at 137.16 58.42 0)
+		(property "MN" "Littlefuse"
+			(at 135.89 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,12 +3249,40 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 137.16 58.42 0)
+		(property "MPN" "V250LA40BP"
+			(at 135.89 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1527448"
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "P$1"
@@ -2655,7 +3293,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "MOV1")
 					(unit 1)
 				)
@@ -2663,8 +3301,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3992def1-e764-45cb-ae3c-b8c46f7e3b2b")
+		(property "Reference" "TP2"
+			(at 38.862 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RELAY_EN"
+			(at 36.83 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
+			(at 45.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2464c730-de6a-442b-9b06-0e7338144758")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 83.82 58.42 0)
+		(at 82.55 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2673,7 +3404,7 @@
 		(fields_autoplaced yes)
 		(uuid "5020da47-ffe8-43f6-8b46-f65b8bb19f38")
 		(property "Reference" "#PWR018"
-			(at 83.82 62.23 0)
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +3413,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 83.82 53.34 0)
+			(at 82.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +3421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 58.42 0)
+			(at 82.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +3430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 58.42 0)
+			(at 82.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +3439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 83.82 58.42 0)
+			(at 82.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +3452,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -2730,7 +3461,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 74.93 0)
+		(at 102.87 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2739,7 +3470,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dce6d22-40e6-4893-ab75-c165aa2a745a")
 		(property "Reference" "#PWR09"
-			(at 104.14 81.28 0)
+			(at 102.87 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +3479,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 80.01 0)
+			(at 102.87 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +3487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 74.93 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +3496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 74.93 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +3505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 74.93 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +3518,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -2796,7 +3527,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 104.14 39.37 0)
+		(at 102.87 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2805,7 +3536,7 @@
 		(fields_autoplaced yes)
 		(uuid "620ce497-20a2-4803-b2af-6466ae41969d")
 		(property "Reference" "#PWR01"
-			(at 104.14 43.18 0)
+			(at 102.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +3545,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 104.14 34.29 0)
+			(at 102.87 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +3553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 39.37 0)
+			(at 102.87 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +3562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 39.37 0)
+			(at 102.87 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +3571,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 39.37 0)
+			(at 102.87 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +3584,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -2862,7 +3593,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 149.86 49.53 270)
+		(at 148.59 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2871,7 +3602,7 @@
 		(fields_autoplaced yes)
 		(uuid "9541a50d-bbdb-46fb-999f-84cb4e33dbb8")
 		(property "Reference" "P4"
-			(at 153.67 48.2599 90)
+			(at 152.4 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2880,7 +3611,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 153.67 50.7999 90)
+			(at 152.4 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,8 +3620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 149.86 49.53 0)
+		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 148.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +3630,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 49.53 0)
+			(at 148.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +3639,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 149.86 49.53 0)
+			(at 148.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,11 +3648,39 @@
 			)
 		)
 		(property "MPN" ""
-			(at 149.86 49.53 0)
+			(at 148.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2929,7 +3688,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "P4")
 					(unit 1)
 				)
@@ -2938,7 +3697,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 58.42 62.23 90)
+		(at 57.15 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2947,7 +3706,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e4f8012-f2df-47b5-8cf9-c1e631504172")
 		(property "Reference" "R1"
-			(at 58.42 55.88 90)
+			(at 57.15 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +3714,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 58.42 58.42 90)
+			(at 57.15 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +3722,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 58.674 61.214 90)
+			(at 57.404 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +3731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 62.23 0)
+			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +3740,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 58.42 62.23 0)
+			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,8 +3748,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C1226"
-			(at 58.42 62.23 0)
+		(property "MPN" "0603WAF2200T5E"
+			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,12 +3757,40 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 58.42 62.23 0)
+		(property "Digikey" ""
+			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 57.15 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22962"
+			(at 57.15 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Uni-Royal"
+			(at 57.15 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3014,7 +3801,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "R1")
 					(unit 1)
 				)
@@ -3023,7 +3810,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:MMBT3904")
-		(at 101.6 67.31 0)
+		(at 100.33 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3032,7 +3819,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4ce7bb4-0bf5-496a-b12b-cdedc4afd3ea")
 		(property "Reference" "Q1"
-			(at 106.68 66.0399 0)
+			(at 105.41 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +3828,7 @@
 			)
 		)
 		(property "Value" "MMBT3904"
-			(at 106.68 68.5799 0)
+			(at 105.41 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,18 +3837,17 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 106.68 69.215 0)
+			(at 105.41 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 101.6 67.31 0)
+			(at 100.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3857,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 101.6 67.31 0)
+			(at 100.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,8 +3865,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C909754"
-			(at 101.6 67.31 0)
+		(property "MPN" "MMBT3904"
+			(at 100.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,12 +3874,40 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 101.6 67.31 0)
+		(property "Digikey" ""
+			(at 100.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C909754"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "GOODWORK"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -3107,7 +3921,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -3116,7 +3930,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT48JFILM")
-		(at 104.14 46.99 270)
+		(at 102.87 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3124,7 +3938,7 @@
 		(dnp no)
 		(uuid "dfef80fb-f08b-4701-8d9d-61bac91789af")
 		(property "Reference" "D1"
-			(at 106.68 45.4024 90)
+			(at 105.41 44.1324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3947,7 @@
 			)
 		)
 		(property "Value" "BAT48JFILM"
-			(at 91.44 47.244 90)
+			(at 90.17 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3956,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 99.695 46.99 0)
+			(at 98.425 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3965,7 @@
 			)
 		)
 		(property "Datasheet" "www.st.com/resource/en/datasheet/bat48.pdf"
-			(at 104.14 46.99 0)
+			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3974,7 @@
 			)
 		)
 		(property "Description" "40V 0.35A Small Signal Schottky Diode, SOD-323"
-			(at 104.14 46.99 0)
+			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,8 +3982,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C155590"
-			(at 104.14 46.99 90)
+		(property "MPN" "BAT48JFILM"
+			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,12 +3991,40 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 104.14 46.99 0)
+		(property "Digikey" ""
+			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 102.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2798199"
+			(at 102.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "STMicroelectronics"
+			(at 102.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3193,7 +4035,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "D1")
 					(unit 1)
 				)
@@ -3202,7 +4044,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 90.17 67.31 90)
+		(at 88.9 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3211,7 +4053,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebc56c03-5822-4599-91b5-9389c90eecdb")
 		(property "Reference" "R2"
-			(at 90.17 60.96 90)
+			(at 88.9 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +4061,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 90.17 63.5 90)
+			(at 88.9 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +4069,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 90.424 66.294 90)
+			(at 89.154 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +4078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 67.31 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +4087,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 90.17 67.31 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,8 +4095,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C1226"
-			(at 90.17 67.31 0)
+		(property "MPN" "0603WAF2200T5E"
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,12 +4104,40 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 90.17 67.31 0)
+		(property "Mouser" ""
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22962"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Uni-Royal"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3278,7 +4148,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "R2")
 					(unit 1)
 				)
@@ -3286,24 +4156,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 128.27 67.31 90)
+		(lib_id "power:GND")
+		(at 41.91 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f363959c-1c46-4652-88fa-133470ae5005")
-		(property "Reference" "P1"
-			(at 127 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 127 63.5 90)
+		(fields_autoplaced yes)
+		(uuid "ed357710-fb49-449e-b5be-e0a3e55a9360")
+		(property "Reference" "#PWR024"
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,8 +4174,81 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 128.27 67.31 0)
+		(property "Value" "GND"
+			(at 41.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40078f8c-7e62-43d7-a228-4a8e976b0300")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 127 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f363959c-1c46-4652-88fa-133470ae5005")
+		(property "Reference" "P1"
+			(at 125.73 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 125.73 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 127 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3321,7 +4257,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 67.31 0)
+			(at 127 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +4266,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 128.27 67.31 0)
+			(at 127 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,11 +4275,39 @@
 			)
 		)
 		(property "MPN" ""
-			(at 128.27 67.31 0)
+			(at 127 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3351,7 +4315,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "P1")
 					(unit 1)
 				)
@@ -3360,7 +4324,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 146.05 67.31 270)
+		(at 144.78 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3369,7 +4333,7 @@
 		(fields_autoplaced yes)
 		(uuid "f758ae44-9d96-472a-ab9b-b8323f402746")
 		(property "Reference" "P2"
-			(at 149.86 66.0399 90)
+			(at 148.59 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,7 +4342,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 149.86 68.5799 90)
+			(at 148.59 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,8 +4351,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 146.05 67.31 0)
+		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 144.78 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +4361,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 67.31 0)
+			(at 144.78 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +4370,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 146.05 67.31 0)
+			(at 144.78 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,11 +4379,39 @@
 			)
 		)
 		(property "MPN" ""
-			(at 146.05 67.31 0)
+			(at 144.78 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3427,8 +4419,102 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5a0ae98e-a922-4c0c-a9cd-41ef326d2191"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 87.63 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff397062-18fe-4c55-ab26-0e64a617c224")
+		(property "Reference" "TP1"
+			(at 86.614 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RELAY_CTRL"
+			(at 90.17 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
+			(at 92.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710fe700-50ec-449d-82ce-aad09684cb47")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
+					(reference "TP1")
 					(unit 1)
 				)
 			)

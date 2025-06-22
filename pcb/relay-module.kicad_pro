@@ -726,6 +726,22 @@
     [
       "445c1fff-2e1a-48b1-a91f-a137832edebf",
       "Root"
+    ],
+    [
+      "dc09e621-2599-4940-ada2-25b5d3d0b325",
+      "Requirements"
+    ],
+    [
+      "3b602092-7627-4b1e-9a45-58db61fac69b",
+      "MCU"
+    ],
+    [
+      "0a3c400a-fb69-4691-b0a9-570856f60703",
+      "Relay"
+    ],
+    [
+      "8c24c56f-0d3c-42c7-983e-10b8f8d78981",
+      "Interfaces"
     ]
   ],
   "text_variables": {}
