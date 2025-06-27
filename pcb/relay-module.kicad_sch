@@ -6,6 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Relay Module")
+		(date "<<release-date>>")
+		(rev "<<tag>>")
+		(comment 1 "<<hash>>")
 	)
 	(lib_symbols
 		(symbol "CRGM Logos:Aquarius Logo"
@@ -62458,7 +62461,25 @@
 			"////////////////////////////////////////////////////////////////////////////"
 			"////////////////////////////////////////////////////////////////////////////"
 			"////////////////////////////////////////////////////////////////////////////"
-			"/////////////////////////////////////////////////////////////w=="
+			"/////////////////////////////////////////////////////////////wAAVwAAAHEAAAB5"
+			"AAAASQAAAG0AAABQAAAALwAAADMAAABwAAAAVAAAADgAAABHAAAAdgAAAHYAAABmAAAAdQAAAFgA"
+			"AAA4AAAAWQAAAEwAAABuAAAAUAAAAHgAAABlAAAARQAAAEUAAABFAAAASQAAAEkAAABJAAAAWQAA"
+			"AFEAAABRAAAAYwAAAHIAAAAwAAAAUwAAAHoAAABYAAAAKwAAAHYAAABWAAAALwAAAFQAAAB1AAAA"
+			"VQAAADAAAABWAAAATQAAAEsAAAA1AAAATwAAADYAAAAvAAAATQAAACsAAABpAAAATQAAAG0AAABi"
+			"AAAAUAAAAGcAAABLAAAARgAAAEkAAABuAAAAQwAAAEsAAABDAAAAUwAAAFkAAABKAAAASgAAAFMA"
+			"AAByAAAAWgAAAFMAAABaAAAAcQAAADAAAAAvAAAAZAAAAHYAAABlAAAAbgAAADEAAAB6AAAAdgAA"
+			"AHAAAABXAAAAYwAAADkAAAA4AAAAdQAAADUAAAAwAAAAUAAAAG0AAAAwAAAAaQAAAHMAAAA4AAAA"
+			"eQAAAC8AAAA1AAAAWQAAAFkAAABPAAAAbQAAACsAAABkAAAAbwAAAHkAAABrAAAAMAAAAGsAAABH"
+			"AAAAVAAAAHIAAAA5AAAAOQAAAE0AAAA1AAAATgAAAFcAAAB1AAAARQAAADIAAABDAAAAYgAAAFcA"
+			"AABnAAAARQAAADMAAABWAAAANAAAAGUAAAA3AAAAcwAAAC8AAABQAAAAawAAAGoAAABCAAAAOQAA"
+			"AHAAAABkAAAAQQAAAHgAAAArAAAAZgAAAHcAAAB2AAAAUwAAAGUAAAA4AAAAKwAAAHEAAAArAAAA"
+			"OQAAAEoAAABPAAAAQQAAADQAAABJAAAAZAAAAFUAAAA1AAAAUQAAADUAAABlAAAATQAAAEoAAABV"
+			"AAAAeAAAAG0AAABmAAAANwAAAFgAAABNAAAAbwAAAHIAAAArAAAAdAAAADEAAAA2AAAAOAAAAHcA"
+			"AAAvAAAATwAAAHoAAABhAAAAYgAAADMAAABOAAAAeQAAAFAAAABOAAAANwAAAFgAAABUAAAAeQAA"
+			"AHUAAABJAAAAcQAAAEcAAAA3AAAAdAAAAEcAAAA3AAAAVwAAADUAAABsAAAANQAAAHUAAABQAAAA"
+			"WQAAAFYAAAAwAAAASQAAAGYAAAA5AAAAMgAAAHoAAAB2AAAAUAAAADgAAABUAAAAdgAAAHYAAAB2"
+			"AAAAMwAAAFgAAABqAAAANgAAADIAAABIAAAARQAAAEUAAABMAAAASQAAAHQAAABZAAAAVgAAAEMA"
+			"AABNAAAAaQAAAEgAAABrAAAAVAAAAEgAAABIAAAAdgAAAHYAAABVAAAAKwAAAA=="
 		)
 	)
 	(image
@@ -97735,7 +97756,25 @@
 			"WWZ2L3VCNk1BWU0iCiJEOGVnQktpRkZIVW9ucEhUZkpvUlA2bERkU3dhQmdTVVFpZUFadExrNVJN"
 			"WGlqNkQ3OWVnN1ltYzdhTUdxdy9nQlRvZ2tqNFhjNElqIgoic2NkMzZPNUsyejBsRlRlYlBKTXdW"
 			"UGN2V1laaGlIUWZYTzI1dU5YbjVsTStmSXIwa0h2ajhoc3g4TkFBbHlIZDh6aEhRUlhkbVJwSCIK"
-			"IkpVN0syNGFlUjhFdDM3b0ZWOXh3QlRZOHNnRQ=="
+			"IkpVN0syNGFlUjhFdDM3b0ZWOXh3QlRZOHNnRf//////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////////////////////////////////////w=="
 		)
 	)
 	(image
@@ -137653,7 +137692,25 @@
 			"////////////////////////////////////////////////////////////////////////////"
 			"////////////////////////////////////////////////////////////////////////////"
 			"//////////8AAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////////////////////"
-			"/////////////////////w=="
+			"/////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(symbol
