@@ -45,12 +45,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "#480048FF")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -92,6 +94,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "#480048FF")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -99,6 +102,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
 			(copper_finish "ENIG")
 			(dielectric_constraints no)
@@ -36761,7 +36765,7 @@
 			(uuid "6f2798b9-b2c4-46a1-948d-fae56d4691cc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_USER_LIBRARY}/models/ATTINY1616-MFR.stp"
+		(model "${KICAD_USER_MODEL_DIR}/ATTINY1616-MFR.step"
 			(offset
 				(xyz 0 0 0)
 			)
