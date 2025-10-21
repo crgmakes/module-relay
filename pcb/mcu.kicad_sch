@@ -520,7 +520,205 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
+		(symbol "CRGM Connector:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CRGM Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
@@ -532,14 +730,6 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -547,8 +737,17 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
+			(property "Value" "TestPoint"
+				(at 5.588 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
+				(at 0 -7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -557,7 +756,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 5.08 0 0)
+				(at 2.286 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -565,8 +764,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "test point"
-				(at 0 0 0)
+			(property "Description" "Test Point D1.0mm"
+				(at 0 -9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -822,6 +1021,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
@@ -954,21 +1162,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1982,7 +2188,7 @@
 	)
 	(rectangle
 		(start 19.05 94.615)
-		(end 53.975 125.73)
+		(end 53.975 133.096)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -2007,8 +2213,8 @@
 		(uuid 7ddebbaa-d50c-4868-bbe5-431ade93e883)
 	)
 	(rectangle
-		(start 56.515 94.615)
-		(end 92.075 125.73)
+		(start 55.88 94.615)
+		(end 91.821 133.096)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -2021,13 +2227,14 @@
 	)
 	(text "Relay LED"
 		(exclude_from_sim no)
-		(at 65.278 123.698 0)
+		(at 55.88 133.096 0)
 		(effects
 			(font
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
 			)
+			(justify left bottom)
 		)
 		(uuid "a3975d82-c715-4596-87d8-092760b065f5")
 	)
@@ -2046,7 +2253,7 @@
 	)
 	(text "Power LEDs"
 		(exclude_from_sim no)
-		(at 20.32 124.46 0)
+		(at 19.05 133.096 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2111,6 +2318,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 124.46) (xy 40.64 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd09723-f73e-4085-8862-29251aef3839")
+	)
+	(wire
+		(pts
 			(xy 71.12 63.5) (xy 78.74 63.5)
 		)
 		(stroke
@@ -2131,7 +2348,27 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 110.49) (xy 40.64 106.68)
+			(xy 72.39 116.84) (xy 76.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "405f63e1-ff3c-453e-9077-a05ff0ec7283")
+	)
+	(wire
+		(pts
+			(xy 40.64 115.57) (xy 40.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcdf376-59a7-4bc4-aed4-15a71bdcb27d")
+	)
+	(wire
+		(pts
+			(xy 40.64 109.22) (xy 40.64 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 110.49) (xy 29.21 106.68)
+			(xy 29.21 109.22) (xy 29.21 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2211,7 +2448,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 118.11) (xy 72.39 118.11)
+			(xy 29.21 115.57) (xy 29.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0eb8ba-1a0b-4547-8091-93434b595fee")
+	)
+	(wire
+		(pts
+			(xy 62.23 116.84) (xy 64.77 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2271,7 +2518,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 110.49) (xy 64.77 106.68)
+			(xy 62.23 109.22) (xy 62.23 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2311,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 115.57) (xy 64.77 118.11)
+			(xy 62.23 114.3) (xy 62.23 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2338,6 +2585,16 @@
 			(type default)
 		)
 		(uuid "b9f400bf-69e8-4e12-8a0c-b8fff25a1074")
+	)
+	(wire
+		(pts
+			(xy 29.21 124.46) (xy 29.21 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bd4100-7394-4e83-b5c5-29dd1d72d4d5")
 	)
 	(wire
 		(pts
@@ -2410,7 +2667,7 @@
 		(uuid "f96f1009-4da4-4c9c-a074-7872045c4bb9")
 	)
 	(label "V3.3LED"
-		(at 40.64 109.22 0)
+		(at 40.64 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2438,16 +2695,6 @@
 			(justify left bottom)
 		)
 		(uuid "2c8e2b37-6f01-44b2-8b93-9b3f85b2aeee")
-	)
-	(label "RXD"
-		(at 73.66 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30e3cccd-305c-4eb1-b1d0-78e8eecc36c7")
 	)
 	(label "PC3"
 		(at 73.66 45.72 0)
@@ -2500,7 +2747,7 @@
 		(uuid "5ece4f4f-82a3-4750-80e0-aa1173352b77")
 	)
 	(label "V5LED"
-		(at 29.21 109.22 0)
+		(at 29.21 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2539,16 +2786,6 @@
 		)
 		(uuid "9a8cf8dc-f2e9-42f1-99e9-8560795169f8")
 	)
-	(label "TXD"
-		(at 73.66 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da69a2b9-42c7-42f6-8db1-f6c509a3d3c6")
-	)
 	(label "PA1"
 		(at 110.49 40.64 0)
 		(effects
@@ -2561,7 +2798,7 @@
 	)
 	(global_label "RELAY_LED"
 		(shape input)
-		(at 72.39 118.11 0)
+		(at 76.2 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2571,7 +2808,7 @@
 		)
 		(uuid "041665cf-8c7d-4159-a294-ba73a36a9233")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.4142 118.11 0)
+			(at 89.2242 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2966,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 115.57 0)
+		(at 40.64 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2737,7 +2974,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f2452e9")
 		(property "Reference" "#PWR028"
-			(at 40.64 121.92 0)
+			(at 40.64 130.81 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2746,7 +2983,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 119.38 0)
+			(at 40.64 128.27 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2754,27 +2991,25 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 115.57 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
-					(size 1 1)
-					(color 223 129 255 1)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 115.57 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
-					(size 1 1)
-					(color 223 129 255 1)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 40.64 115.57 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +3031,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 40.64 104.14 0)
+		(at 40.64 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2804,7 +3039,7 @@
 		(dnp no)
 		(uuid "02f62988-a092-4c11-9176-4f39dc9d92bb")
 		(property "Reference" "R6"
-			(at 42.1386 102.9716 0)
+			(at 42.1386 101.7016 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2813,7 +3048,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 42.1386 105.283 0)
+			(at 42.1386 104.013 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2821,8 +3056,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.64 104.14 0)
+		(property "Footprint" "CRGM Passive:R_0603_1608Metric"
+			(at 40.64 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2831,8 +3066,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 40.64 104.14 0)
+		(property "Datasheet" "~"
+			(at 40.64 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2841,8 +3076,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 1/10watt 1.0Kohms 1%"
-			(at 40.64 104.14 0)
+		(property "Description" "Resistor, small symbol"
+			(at 40.64 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +3086,7 @@
 			)
 		)
 		(property "MN" "Vishay"
-			(at 40.64 104.14 0)
+			(at 40.64 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,7 +3095,7 @@
 			)
 		)
 		(property "MPN" "CRCW06031K00FKEA"
-			(at 40.64 104.14 0)
+			(at 40.64 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,7 +3104,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW0603-1.0K-E3"
-			(at 40.64 104.14 0)
+			(at 40.64 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2879,7 +3114,7 @@
 			)
 		)
 		(property "Digikey" "541-1.00KHTR-ND"
-			(at 40.64 104.14 0)
+			(at 40.64 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2889,11 +3124,20 @@
 			)
 		)
 		(property "LCSC" "C2907113"
-			(at 40.64 104.14 0)
+			(at 40.64 102.87 0)
 			(effects
 				(font
 					(size 1 1)
 					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2930,7 +3174,7 @@
 				)
 			)
 		)
-		(property "Value" "A0"
+		(property "Value" "~"
 			(at 68.58 69.85 0)
 			(effects
 				(font
@@ -2993,6 +3237,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1403203b-1174-4d3c-8ac8-debf1a7af6dd")
 		)
@@ -3009,7 +3262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 73.66 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3024,20 +3277,20 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "PC3"
+		(property "Value" "~"
 			(at 69.596 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 73.66 40.64 0)
+			(at 81.026 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +3299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 40.64 0)
+			(at 71.628 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,8 +3307,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 73.66 45.72 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 82.804 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,26 +3316,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 73.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 73.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 73.66 45.72 0)
+		(property "Sim.Enable" ""
+			(at 73.66 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +3338,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 115.57 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3118,20 +3353,20 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "PA5"
+		(property "Value" "~"
 			(at 119.634 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 115.57 55.88 0)
+			(at 108.204 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 55.88 0)
+			(at 117.602 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,8 +3383,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 115.57 50.8 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 106.426 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,26 +3392,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 115.57 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 115.57 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 115.57 50.8 0)
+		(property "Sim.Enable" ""
+			(at 115.57 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3415,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 40.64 113.03 90)
+		(at 40.64 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3206,7 +3423,7 @@
 		(dnp no)
 		(uuid "1b3fbfc6-1453-482a-9906-17ea9e78012a")
 		(property "Reference" "D4"
-			(at 41.91 111.76 90)
+			(at 41.91 110.49 90)
 			(effects
 				(font
 					(size 1 1)
@@ -3214,8 +3431,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Blue"
-			(at 41.91 114.3 90)
+		(property "Value" "Orange"
+			(at 41.91 113.03 90)
 			(effects
 				(font
 					(size 1 1)
@@ -3223,8 +3440,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 40.64 113.03 0)
+		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
+			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3233,8 +3450,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
-			(at 40.64 113.03 0)
+		(property "Datasheet" "~"
+			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3243,8 +3460,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20mA 240mcd Colorless Blue 120° 70mW 3.3V 0603"
-			(at 40.64 113.03 0)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +3470,7 @@
 			)
 		)
 		(property "MN" "XINGLIGHT"
-			(at 40.64 113.03 0)
+			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,8 +3478,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "XL-1608UBC-04"
-			(at 40.64 113.03 0)
+		(property "MPN" "XL-1608UOC-06"
+			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,8 +3487,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "710-150060BS75020"
-			(at 40.64 113.03 0)
+		(property "Mouser" "859-LTST-C190KFKT"
+			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3280,8 +3497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
-			(at 40.64 113.03 0)
+		(property "Digikey" "5962-XL-1608UOC-06TR-ND"
+			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3290,12 +3507,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965807"
-			(at 40.64 113.03 0)
+		(property "LCSC" "C965800"
+			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 1 1)
 					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 40.64 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3316,7 +3551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 73.66 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3331,20 +3566,20 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "PC2"
+		(property "Value" "~"
 			(at 69.596 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 73.66 38.1 0)
+			(at 81.026 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 38.1 0)
+			(at 71.628 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,8 +3596,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 73.66 43.18 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 82.804 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,26 +3605,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 73.66 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 73.66 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 73.66 43.18 0)
+		(property "Sim.Enable" ""
+			(at 73.66 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,6 +3621,83 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/3b602092-7627-4b1e-9a45-58db61fac69b"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRGM Connector:SolderJumper_2_Bridged")
+		(at 29.21 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "298a6982-8069-4e45-b32a-8cc0b23e2b11")
+		(property "Reference" "JP4"
+			(at 27.178 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 31.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 31.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.148 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 36.322 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 29.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0d57f77-eff6-4122-a989-5ba3ab5b7424")
+		)
+		(pin "1"
+			(uuid "adb00875-6e5a-4d79-a187-b299905ac852")
+		)
+		(instances
+			(project ""
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/3b602092-7627-4b1e-9a45-58db61fac69b"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 90.17 0)
+			(at 121.92 89.2231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "CRGM Passive:C_0603_1608Metric"
 			(at 122.8852 85.09 0)
 			(effects
 				(font
@@ -3557,6 +3851,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1276-1860-2-ND"
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "187-CL10A105KB8NNNC"
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56404e46-7f0e-449e-a7e5-ba8803620b02")
 		)
@@ -3592,7 +3913,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 93.98 24.13 0)
+			(at 93.98 25.0769 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3961,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 29.21 101.6 0)
+		(at 29.21 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3648,7 +3969,7 @@
 		(dnp no)
 		(uuid "56cafd01-3c77-4164-92a0-3ec554228ee9")
 		(property "Reference" "#PWR025"
-			(at 29.21 105.41 0)
+			(at 29.21 104.14 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3657,7 +3978,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 29.21 97.79 0)
+			(at 29.21 96.52 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3665,7 +3986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 101.6 0)
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3675,7 +3996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 101.6 0)
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3685,7 +4006,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 101.6 0)
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +4055,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "CRGM Passive:R_0603_1608Metric"
 			(at 59.436 45.466 90)
 			(effects
 				(font
@@ -3806,6 +4127,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b8cc3e1e-a259-4eea-b77f-23789bdb3044")
 		)
@@ -3838,7 +4168,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_3_Open"
+		(property "Value" "~"
 			(at 41.656 36.068 0)
 			(effects
 				(font
@@ -3909,6 +4239,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "72e286fb-8072-4a81-88b5-a850e2fb8d98")
 		)
@@ -3922,6 +4261,83 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/3b602092-7627-4b1e-9a45-58db61fac69b"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRGM Connector:SolderJumper_2_Bridged")
+		(at 68.58 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "63af0d18-3199-4110-9e77-7978c024c6c3")
+		(property "Reference" "JP6"
+			(at 68.58 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 68.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 68.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 68.58 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2418d968-2ea6-4fd8-8e35-d233461f524d")
+		)
+		(pin "1"
+			(uuid "7acdb3fb-1e0e-4991-9fbb-bb82820ceb24")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/3b602092-7627-4b1e-9a45-58db61fac69b"
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -4013,7 +4429,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 78.74 0)
+			(at 66.04 77.7931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,6 +4463,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a56ebc23-6a7d-4c3b-8b80-337d7e99211e")
 		)
@@ -4060,7 +4503,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 115.57 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4075,20 +4518,20 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "PA1"
+		(property "Value" "~"
 			(at 119.634 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 115.57 45.72 0)
+			(at 108.204 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4540,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 45.72 0)
+			(at 117.602 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,8 +4548,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 115.57 40.64 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 106.426 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,26 +4557,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 115.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 115.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 115.57 40.64 0)
+		(property "Sim.Enable" ""
+			(at 115.57 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "CRGM Passive:R_0603_1608Metric"
 			(at 44.196 45.466 90)
 			(effects
 				(font
@@ -4319,6 +4744,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 43.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a4e9c38-c314-4741-932d-c5a8db72f4ac")
 		)
@@ -4354,7 +4788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 73.66 0)
+			(at 93.98 72.7131 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4836,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 64.77 104.14 0)
+		(at 62.23 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4410,7 +4844,7 @@
 		(dnp no)
 		(uuid "95b23ad6-510e-45d3-b845-2885c2a68c3d")
 		(property "Reference" "R7"
-			(at 66.2686 102.9716 0)
+			(at 63.7286 101.7016 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4419,7 +4853,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 66.2686 105.283 0)
+			(at 63.7286 104.013 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4427,8 +4861,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 64.77 104.14 0)
+		(property "Footprint" "CRGM Passive:R_0603_1608Metric"
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4437,8 +4871,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 64.77 104.14 0)
+		(property "Datasheet" "~"
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4447,8 +4881,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 1/10watt 1.0Kohms 1%"
-			(at 64.77 104.14 0)
+		(property "Description" "Resistor, small symbol"
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4891,7 @@
 			)
 		)
 		(property "MN" "Vishay"
-			(at 64.77 104.14 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4900,7 @@
 			)
 		)
 		(property "MPN" "CRCW06031K00FKEA"
-			(at 64.77 104.14 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4909,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW0603-1.0K-E3"
-			(at 64.77 104.14 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4485,7 +4919,7 @@
 			)
 		)
 		(property "Digikey" "541-1.00KHTR-ND"
-			(at 64.77 104.14 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4495,11 +4929,20 @@
 			)
 		)
 		(property "LCSC" "C2907113"
-			(at 64.77 104.14 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1 1)
 					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4521,7 +4964,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 29.21 104.14 0)
+		(at 29.21 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4529,7 +4972,7 @@
 		(dnp no)
 		(uuid "96b843bf-f3c7-4406-8014-97b0a4b1b6ff")
 		(property "Reference" "R5"
-			(at 30.7086 102.9716 0)
+			(at 30.7086 101.7016 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4537,8 +4980,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 30.7086 105.283 0)
+		(property "Value" "4.7K"
+			(at 30.7086 104.013 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4546,8 +4989,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 29.21 104.14 0)
+		(property "Footprint" "CRGM Passive:R_0603_1608Metric"
+			(at 29.21 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4556,8 +4999,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 29.21 104.14 0)
+		(property "Datasheet" "~"
+			(at 29.21 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4566,8 +5009,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 1/10Watt 4.7Kohms 5% Commercial Use"
-			(at 29.21 104.14 0)
+		(property "Description" "Resistor, small symbol"
+			(at 29.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +5019,7 @@
 			)
 		)
 		(property "MN" "FOJAN"
-			(at 29.21 104.14 0)
+			(at 29.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +5028,7 @@
 			)
 		)
 		(property "MPN" "FRC0603J472 TS"
-			(at 29.21 104.14 0)
+			(at 29.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +5037,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW06034K70JNEAC"
-			(at 29.21 104.14 0)
+			(at 29.21 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4604,7 +5047,7 @@
 			)
 		)
 		(property "Digikey" "541-3993-2-ND"
-			(at 29.21 104.14 0)
+			(at 29.21 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4614,11 +5057,20 @@
 			)
 		)
 		(property "LCSC" "C2907166"
-			(at 29.21 104.14 0)
+			(at 29.21 102.87 0)
 			(effects
 				(font
 					(size 1 1)
 					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 29.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4639,7 +5091,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 115.57 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4654,20 +5106,20 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "PA2"
+		(property "Value" "~"
 			(at 119.634 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 115.57 48.26 0)
+			(at 108.204 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +5128,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 48.26 0)
+			(at 117.602 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,8 +5136,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 115.57 43.18 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 106.426 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,26 +5145,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 115.57 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 115.57 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 115.57 43.18 0)
+		(property "Sim.Enable" ""
+			(at 115.57 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +5168,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 29.21 113.03 90)
+		(at 29.21 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4742,7 +5176,7 @@
 		(dnp no)
 		(uuid "c640482b-420d-4150-804b-6611d8943274")
 		(property "Reference" "D3"
-			(at 30.48 111.76 90)
+			(at 30.48 110.49 90)
 			(effects
 				(font
 					(size 1 1)
@@ -4751,7 +5185,7 @@
 			)
 		)
 		(property "Value" "Orange"
-			(at 30.48 114.3 90)
+			(at 30.48 113.03 90)
 			(effects
 				(font
 					(size 1 1)
@@ -4759,8 +5193,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 29.21 113.03 0)
+		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
+			(at 29.21 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4769,8 +5203,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
-			(at 29.21 113.03 0)
+		(property "Datasheet" "~"
+			(at 29.21 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4779,8 +5213,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20mA 315mcd Colorless Orange 120° 50mW 2.3V 0603"
-			(at 29.21 113.03 0)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 29.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +5223,7 @@
 			)
 		)
 		(property "MN" "XINGLIGHT"
-			(at 29.21 113.03 0)
+			(at 29.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +5232,7 @@
 			)
 		)
 		(property "MPN" "XL-1608UOC-06"
-			(at 29.21 113.03 0)
+			(at 29.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +5241,7 @@
 			)
 		)
 		(property "Mouser" "859-LTST-C190KFKT"
-			(at 29.21 113.03 0)
+			(at 29.21 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4817,7 +5251,7 @@
 			)
 		)
 		(property "Digikey" "5962-XL-1608UOC-06TR-ND"
-			(at 29.21 113.03 0)
+			(at 29.21 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4827,11 +5261,29 @@
 			)
 		)
 		(property "LCSC" "C965800"
-			(at 29.21 113.03 0)
+			(at 29.21 111.76 0)
 			(effects
 				(font
 					(size 1 1)
 					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 29.21 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 29.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4852,7 +5304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 115.57 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4867,20 +5319,20 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "PA4"
+		(property "Value" "~"
 			(at 119.634 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 115.57 53.34 0)
+			(at 108.204 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +5341,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 53.34 0)
+			(at 117.602 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,8 +5349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 115.57 48.26 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 106.426 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,26 +5358,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 115.57 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 115.57 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 115.57 48.26 0)
+		(property "Sim.Enable" ""
+			(at 115.57 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +5399,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 78.74 0)
+			(at 71.12 77.7931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +5447,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 40.64 101.6 0)
+		(at 40.64 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5021,7 +5455,7 @@
 		(dnp no)
 		(uuid "c9e7fe71-af4e-4907-99c1-deb302bcf5ed")
 		(property "Reference" "#PWR026"
-			(at 40.64 105.41 0)
+			(at 40.64 104.14 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5030,7 +5464,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 40.64 97.79 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5038,27 +5472,25 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 101.6 0)
+			(at 40.64 100.33 0)
 			(effects
 				(font
-					(size 1 1)
-					(color 223 129 255 1)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 101.6 0)
+			(at 40.64 100.33 0)
 			(effects
 				(font
-					(size 1 1)
-					(color 223 129 255 1)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 40.64 101.6 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 40.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 115.57 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5094,20 +5526,20 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "PA7"
+		(property "Value" "~"
 			(at 119.634 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 115.57 60.96 0)
+			(at 108.204 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 60.96 0)
+			(at 117.602 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,8 +5556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 115.57 55.88 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 106.426 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,26 +5565,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 115.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 115.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 115.57 55.88 0)
+		(property "Sim.Enable" ""
+			(at 115.57 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 115.57 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5188,20 +5602,20 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "PA3"
+		(property "Value" "~"
 			(at 119.634 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 115.57 50.8 0)
+			(at 108.204 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +5624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 50.8 0)
+			(at 117.602 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,8 +5632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 115.57 45.72 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 106.426 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,26 +5641,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 115.57 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 115.57 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 115.57 45.72 0)
+		(property "Sim.Enable" ""
+			(at 115.57 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5663,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 115.57 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5282,20 +5678,20 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "PA6"
+		(property "Value" "~"
 			(at 119.634 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 115.57 58.42 0)
+			(at 108.204 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5700,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 58.42 0)
+			(at 117.602 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,8 +5708,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 115.57 53.34 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 106.426 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,26 +5717,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 115.57 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 115.57 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 115.57 53.34 0)
+		(property "Sim.Enable" ""
+			(at 115.57 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,6 +5733,83 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/3b602092-7627-4b1e-9a45-58db61fac69b"
 					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRGM Connector:SolderJumper_2_Bridged")
+		(at 40.64 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e85e7950-75d7-44b8-ac91-75b490821b14")
+		(property "Reference" "JP5"
+			(at 38.608 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.578 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 47.752 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df8b02e5-e5dd-413c-9881-0855eb448276")
+		)
+		(pin "1"
+			(uuid "06a6d9f8-ce84-41d2-b9d7-1516418457a7")
+		)
+		(instances
+			(project ""
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/3b602092-7627-4b1e-9a45-58db61fac69b"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -5460,6 +5915,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 93.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "53cfca43-8c6f-46e9-92dc-2f3fa3423be8")
 		)
@@ -5534,7 +5998,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 115.57 0)
+		(at 29.21 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5542,7 +6006,7 @@
 		(dnp no)
 		(uuid "f23efa14-68c2-4a98-b25c-5eaef543e16a")
 		(property "Reference" "#PWR027"
-			(at 29.21 121.92 0)
+			(at 29.21 130.81 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5551,7 +6015,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 119.38 0)
+			(at 29.21 128.27 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5559,27 +6023,25 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 115.57 0)
+			(at 29.21 124.46 0)
 			(effects
 				(font
-					(size 1 1)
-					(color 223 129 255 1)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 115.57 0)
+			(at 29.21 124.46 0)
 			(effects
 				(font
-					(size 1 1)
-					(color 223 129 255 1)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 115.57 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +6063,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 64.77 113.03 90)
+		(at 62.23 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5609,7 +6071,7 @@
 		(dnp no)
 		(uuid "fa1b1529-6d6f-405e-95bb-4557a081a7df")
 		(property "Reference" "D5"
-			(at 66.04 111.76 90)
+			(at 63.5 110.49 90)
 			(effects
 				(font
 					(size 1 1)
@@ -5618,7 +6080,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 66.04 114.3 90)
+			(at 63.5 113.03 90)
 			(effects
 				(font
 					(size 1 1)
@@ -5626,8 +6088,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 64.77 113.03 0)
+		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
+			(at 62.23 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5636,8 +6098,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
-			(at 64.77 113.03 0)
+		(property "Datasheet" "~"
+			(at 62.23 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5646,8 +6108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20mA 330mcd Colorless Red 120° 2.3V 0603"
-			(at 64.77 113.03 0)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 62.23 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,7 +6118,7 @@
 			)
 		)
 		(property "MN" "XINGLIGHT"
-			(at 64.77 113.03 0)
+			(at 62.23 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5665,7 +6127,7 @@
 			)
 		)
 		(property "MPN" "XL-1608SURC-06"
-			(at 64.77 113.03 0)
+			(at 62.23 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +6136,7 @@
 			)
 		)
 		(property "Mouser" "710-150060SS75000"
-			(at 64.77 113.03 0)
+			(at 62.23 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5684,7 +6146,7 @@
 			)
 		)
 		(property "Digikey" "5962-XL-1608UBC-06ATR-ND"
-			(at 64.77 113.03 0)
+			(at 62.23 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5694,11 +6156,29 @@
 			)
 		)
 		(property "LCSC" "C965799"
-			(at 64.77 113.03 0)
+			(at 62.23 111.76 0)
 			(effects
 				(font
 					(size 1 1)
 					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 62.23 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 62.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5735,7 +6215,7 @@
 				)
 			)
 		)
-		(property "Value" "A1"
+		(property "Value" "~"
 			(at 73.66 69.85 0)
 			(effects
 				(font
@@ -5798,6 +6278,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca9a9c3b-7390-4439-9dd3-a4e710f36b2f")
 		)
@@ -5815,7 +6304,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 64.77 101.6 0)
+		(at 62.23 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5823,7 +6312,7 @@
 		(dnp no)
 		(uuid "ff51c65d-34fe-4728-938c-1394d5a4dd5f")
 		(property "Reference" "#PWR029"
-			(at 64.77 105.41 0)
+			(at 62.23 104.14 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5832,7 +6321,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 64.77 97.79 0)
+			(at 62.23 96.52 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5840,27 +6329,25 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 101.6 0)
+			(at 62.23 100.33 0)
 			(effects
 				(font
-					(size 1 1)
-					(color 223 129 255 1)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 101.6 0)
+			(at 62.23 100.33 0)
 			(effects
 				(font
-					(size 1 1)
-					(color 223 129 255 1)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 64.77 101.6 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 62.23 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

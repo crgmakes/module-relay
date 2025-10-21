@@ -19,7 +19,7 @@
 				(at 0 2.794 0)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 						(thickness 0.125)
 					)
 					(justify left bottom)
@@ -34,9 +34,10 @@
 						(bold yes)
 					)
 					(justify left top)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "CRGM Connector:SM04B-SRSS-TB"
+			(property "Footprint" "CRGM Connector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 				(at 3.048 -13.716 0)
 				(effects
 					(font
@@ -444,9 +445,8 @@
 				(at 0 2.794 0)
 				(effects
 					(font
-						(size 1.778 1.778)
-						(thickness 0.3556)
-						(bold yes)
+						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify left bottom)
 				)
@@ -456,13 +456,13 @@
 				(effects
 					(font
 						(size 1.778 1.778)
-						(thickness 0.3556)
-						(bold yes)
+						(thickness 0.2223)
 					)
 					(justify left top)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
 				(at 1.27 8.89 0)
 				(effects
 					(font
@@ -471,8 +471,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+				(at 0 -23.876 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -489,12 +489,49 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "MN" "JST"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "BM04B-SRSS-TB"
+				(at 0 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
+				(at 0 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "306-BM04BSRSSTBTLFSN"
+				(at 0 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2919601"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "JST-SH-3_1_0"
@@ -611,9 +648,8 @@
 				(at 0 0.254 0)
 				(effects
 					(font
-						(size 1.778 1.778)
-						(thickness 0.3556)
-						(bold yes)
+						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify left bottom)
 				)
@@ -627,9 +663,10 @@
 						(bold yes)
 					)
 					(justify left top)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "CRGM Connector:BM04B-SRSS-TB"
+			(property "Footprint" "CRGM Connector:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 				(at 4.572 -18.034 0)
 				(effects
 					(font
@@ -835,7 +872,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
+		(symbol "CRGM Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
@@ -847,14 +884,6 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -862,8 +891,17 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
+			(property "Value" "TestPoint"
+				(at 5.588 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
+				(at 0 -7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -872,7 +910,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 5.08 0 0)
+				(at 2.286 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -880,8 +918,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "test point"
-				(at 0 0 0)
+			(property "Description" "Test Point D1.0mm"
+				(at 0 -9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1782,7 +1820,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 34.2899 90)
+			(at 32.3851 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +1954,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 50.8 0)
+			(at 93.98 49.8531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +2020,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 31.7499 90)
+			(at 32.3851 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +2133,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 168.91 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2104,7 +2142,7 @@
 		(dnp no)
 		(uuid "365561f2-ba3f-4fa3-bc60-3013a64ca09a")
 		(property "Reference" "TP5"
-			(at 167.132 33.782 0)
+			(at 167.386 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,17 +2150,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 166.878 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 173.99 40.64 0)
+			(at 168.91 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +2170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 40.64 0)
+			(at 171.196 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,8 +2178,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 168.91 40.64 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 168.91 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,25 +2187,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 168.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 168.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
+		(property "Sim.Enable" ""
 			(at 168.91 40.64 0)
 			(effects
 				(font
@@ -2277,6 +2298,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Connector:PinHeader_2x03_P2.54mm_Vertical_SMD"
@@ -2325,6 +2347,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 148.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 148.59 39.37 0)
 			(effects
 				(font
@@ -2427,7 +2458,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 135.89 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2436,7 +2467,7 @@
 		(dnp no)
 		(uuid "5aeb415b-b223-4f28-9560-58192eb448df")
 		(property "Reference" "TP3"
-			(at 133.604 24.892 0)
+			(at 134.366 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,17 +2475,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UPDI"
+		(property "Value" "~"
 			(at 133.604 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 140.97 31.75 0)
+			(at 135.89 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2495,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 31.75 0)
+			(at 138.176 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,8 +2503,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 135.89 31.75 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 135.89 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,25 +2512,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 135.89 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 135.89 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
+		(property "Sim.Enable" ""
 			(at 135.89 31.75 0)
 			(effects
 				(font
@@ -2537,13 +2551,14 @@
 				)
 			)
 		)
-		(property "Value" "QWICC"
+		(property "Value" "~"
 			(at 79.375 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.2223)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Connector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
@@ -2564,7 +2579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "I2C Qwiic Connector 1mm pitch JST Horizontal"
+		(property "Description" "I2C Qwiic Connector 1mm pitch JST"
 			(at 79.248 51.054 0)
 			(effects
 				(font
@@ -2591,7 +2606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "306-SM04BSRSSTBTLFSN"
+		(property "Mouser" "306-SM04B-SRSS-TBTLFSN"
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -2610,6 +2625,15 @@
 			)
 		)
 		(property "LCSC" "C2763614"
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -2736,9 +2760,10 @@
 					(bold yes)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+		(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
 			(at 199.39 21.59 0)
 			(effects
 				(font
@@ -2747,7 +2772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 200.66 30.48 0)
 			(effects
 				(font
@@ -2774,7 +2799,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BM03B-SRSS-TB"
+		(property "MPN" "BM04B-SRSS-TB"
 			(at 200.66 30.48 0)
 			(effects
 				(font
@@ -2783,7 +2808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
 			(at 200.66 30.48 0)
 			(effects
 				(font
@@ -2792,7 +2817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "306-BM04BSRSSTBTLFSN"
 			(at 200.66 30.48 0)
 			(effects
 				(font
@@ -2801,7 +2826,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2919600"
+		(property "LCSC" "C2919601"
+			(at 200.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 200.66 30.48 0)
 			(effects
 				(font
@@ -2829,7 +2863,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 96.52 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2844,20 +2878,20 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "SCL"
+		(property "Value" "~"
 			(at 96.52 26.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 101.6 30.48 0)
+			(at 96.52 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +2900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 30.48 0)
+			(at 98.806 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,8 +2908,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 96.52 30.48 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 96.52 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,26 +2917,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 96.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 96.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 96.52 30.48 0)
+		(property "Sim.Enable" ""
+			(at 96.52 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,7 +2958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power In"
+		(property "Value" "~"
 			(at 46.482 34.3436 0)
 			(effects
 				(font
@@ -2950,6 +2966,7 @@
 					(thickness 0.2223)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Connector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
@@ -3024,6 +3041,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "10cf2d6b-6a0c-4e19-b53d-dcf62e1e1680")
 		)
@@ -3065,7 +3091,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 48.2599 90)
+			(at 32.3851 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3158,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power Out"
+		(property "Value" "~"
 			(at 46.482 48.3136 0)
 			(effects
 				(font
@@ -3140,6 +3166,7 @@
 					(thickness 0.2223)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Connector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
@@ -3207,6 +3234,15 @@
 		)
 		(property "LCSC" "C2763614"
 			(at 41.148 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 38.1 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3338,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 166.37 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3311,7 +3347,7 @@
 		(dnp no)
 		(uuid "b75051c0-8c3f-4d5d-a351-19dcf84a7515")
 		(property "Reference" "TP4"
-			(at 164.846 26.162 0)
+			(at 164.846 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,17 +3355,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V33"
+		(property "Value" "~"
 			(at 164.846 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 171.45 33.02 0)
+			(at 166.37 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,7 +3375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 33.02 0)
+			(at 168.656 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,8 +3383,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 166.37 33.02 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 166.37 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,25 +3392,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 166.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 166.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
+		(property "Sim.Enable" ""
 			(at 166.37 33.02 0)
 			(effects
 				(font
@@ -3395,7 +3414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 99.06 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3410,20 +3429,20 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "~"
 			(at 99.06 26.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 104.14 30.48 0)
+			(at 99.06 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +3451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 30.48 0)
+			(at 101.346 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,8 +3459,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 99.06 30.48 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 99.06 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,26 +3468,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 99.06 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 99.06 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 99.06 30.48 0)
+		(property "Sim.Enable" ""
+			(at 99.06 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +3497,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d7b084a4-ca52-4f9d-8b4f-87cdca185a9d")
 		(property "Reference" "#PWR011"
 			(at 161.29 48.26 0)
@@ -3508,7 +3508,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 46.99 0)
+			(at 161.29 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3574,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 45.7199 90)
+			(at 32.3851 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,7 +3629,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fdc82acf-123d-4de9-8843-9c1d36ba8cb3")
 		(property "Reference" "#PWR07"
 			(at 161.29 36.83 0)
@@ -3641,7 +3640,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 161.29 27.94 0)
+			(at 161.29 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
