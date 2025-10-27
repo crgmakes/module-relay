@@ -3133,15 +3133,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 40.64 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c47a8892-dcaf-4f53-bcea-9ff786c2c31f")
 		)
@@ -3237,15 +3228,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 66.04 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1403203b-1174-4d3c-8ac8-debf1a7af6dd")
 		)
@@ -3316,15 +3298,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 73.66 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "94581201-5148-4ffa-b62e-ad6f90fc7b06")
 		)
@@ -3385,15 +3358,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 106.426 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 115.57 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,15 +3481,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 40.64 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Pin" "1=K 2=A"
 			(at 40.64 111.76 0)
 			(effects
@@ -3605,15 +3560,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 73.66 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "366c30dc-b53b-4c7f-8577-1ee5c7bfbd72")
 		)
@@ -3672,15 +3618,6 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 36.322 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 29.21 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 125.73 82.5499 0)
 			(effects
 				(font
@@ -3833,7 +3770,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A105KB8NNNC"
+		(property "MPN" "CL10B104KO8NNNC"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -3842,7 +3779,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C66501"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -3851,7 +3788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "1276-1860-2-ND"
+		(property "Digikey" "1276-1005-2-ND"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -3860,7 +3797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "187-CL10A105KB8NNNC"
+		(property "Mouser" "187-CL10B104KO8NNNC"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -3869,7 +3806,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "Tolerance" "10%"
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vr" "16V"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -4127,15 +4073,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 58.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b8cc3e1e-a259-4eea-b77f-23789bdb3044")
 		)
@@ -4239,15 +4176,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "72e286fb-8072-4a81-88b5-a850e2fb8d98")
 		)
@@ -4312,15 +4240,6 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 68.58 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,15 +4476,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 115.57 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c6ca1a28-70cd-481c-992a-d50b23cbc0f3")
 		)
@@ -4736,15 +4646,6 @@
 			)
 		)
 		(property "LCSC" "C2907166"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 43.18 45.72 0)
 			(effects
 				(font
@@ -4938,15 +4839,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 62.23 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8bdc3585-3e3d-4f77-b6e4-e39731fa6885")
 		)
@@ -5066,15 +4958,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 29.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c3c8f239-5f4b-44d0-be1d-4422d958011e")
 		)
@@ -5138,15 +5021,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 106.426 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 115.57 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,15 +5144,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 29.21 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Pin" "1=K 2=A"
 			(at 29.21 111.76 0)
 			(effects
@@ -5351,15 +5216,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 106.426 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 115.57 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,15 +5421,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 115.57 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "99222053-713d-4105-a30c-24c9bdbd93dc")
 		)
@@ -5634,15 +5481,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 106.426 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 115.57 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,15 +5555,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 115.57 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "187048db-6ed7-4b74-af3d-7b5dd6e3c06b")
 		)
@@ -5784,15 +5613,6 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 47.752 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,15 +5727,6 @@
 			)
 		)
 		(property "LCSC" "C507118"
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 93.98 55.88 0)
 			(effects
 				(font
@@ -6165,15 +5976,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 62.23 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Pin" "1=K 2=A"
 			(at 62.23 111.76 0)
 			(effects
@@ -6270,15 +6072,6 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 71.12 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 71.12 69.85 0)
 			(effects
 				(font

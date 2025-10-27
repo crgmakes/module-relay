@@ -2187,15 +2187,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 168.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3259efbc-f39d-495e-8acb-9274b1280a5d")
 		)
@@ -2355,15 +2346,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 148.59 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "86b99a65-190a-4d16-8df7-347601174361")
 		)
@@ -2512,15 +2494,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 135.89 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "01c4ad8f-dd37-49f9-b21e-5eeb59511477")
 		)
@@ -2625,15 +2598,6 @@
 			)
 		)
 		(property "LCSC" "C2763614"
-			(at 74.93 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -2835,15 +2799,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 200.66 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "13e3d7ec-f96e-4fb7-8890-8806a404ff23")
 		)
@@ -2910,15 +2865,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 96.52 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 96.52 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,15 +2980,6 @@
 		)
 		(property "LCSC" "C2763614"
 			(at 41.148 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 38.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,15 +3178,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "aee98f81-4a08-463a-86fd-7189943540ca")
 		)
@@ -3392,15 +3320,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 166.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9df862f6-ef2e-43fa-ab7f-3fcdc6ed3171")
 		)
@@ -3461,15 +3380,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 99.06 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 99.06 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -46398,15 +46398,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 64.77 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/dc09e621-2599-4940-ada2-25b5d3d0b325"
@@ -46489,15 +46480,6 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 53.34 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 53.34 187.96 0)
 			(effects
 				(font
@@ -46598,15 +46580,6 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 30.48 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 30.48 187.96 0)
 			(effects
 				(font
@@ -46914,15 +46887,6 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 41.91 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 41.91 187.96 0)
 			(effects
 				(font

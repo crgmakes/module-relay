@@ -110679,15 +110679,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 278.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
@@ -110754,15 +110745,6 @@
 			)
 		)
 		(property "MPN" ""
-			(at 278.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 278.13 156.21 0)
 			(effects
 				(font
@@ -110845,15 +110827,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 278.13 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
@@ -110920,15 +110893,6 @@
 			)
 		)
 		(property "MPN" ""
-			(at 278.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 278.13 161.29 0)
 			(effects
 				(font

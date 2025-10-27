@@ -2599,7 +2599,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "038dc811-4f38-4c38-8a33-c92e90a50d51")
+		(uuid "0488eede-cf50-4217-aac5-aaa8e58efb59")
 		(property "Reference" "C2"
 			(at 45.72 73.6599 0)
 			(effects
@@ -2609,7 +2609,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 45.72 76.1999 0)
 			(effects
 				(font
@@ -2654,7 +2654,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A105KB8NNNC"
+		(property "MPN" "CL10B104KO8NNNC"
 			(at 41.91 74.93 0)
 			(effects
 				(font
@@ -2663,7 +2663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "1276-1860-2-ND"
+		(property "LCSC" "C66501"
 			(at 41.91 74.93 0)
 			(effects
 				(font
@@ -2672,7 +2672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "187-CL10A105KB8NNNC"
+		(property "Digikey" "1276-1005-2-ND"
 			(at 41.91 74.93 0)
 			(effects
 				(font
@@ -2681,7 +2681,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "Mouser" "187-CL10B104KO8NNNC"
 			(at 41.91 74.93 0)
 			(effects
 				(font
@@ -2690,7 +2690,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "Tolerance" "10%"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vr" "16V"
 			(at 41.91 74.93 0)
 			(effects
 				(font
@@ -2700,10 +2709,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd7101cd-fe53-4070-9e70-3274f99ec552")
+			(uuid "f628c235-2ca8-48f1-8e27-4e522380e9ff")
 		)
 		(pin "2"
-			(uuid "cc260442-2caa-4080-880b-c06102d240da")
+			(uuid "29d6e70a-bf2a-418c-931d-86c8efbd5ae2")
 		)
 		(instances
 			(project "relay-module"
@@ -2872,15 +2881,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 148.59 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "88f37125-2932-4c05-92b4-da4287a93c0e")
 		)
@@ -2970,15 +2970,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 118.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "COM1"
@@ -3172,15 +3163,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 72.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0e482cd1-164f-4333-92d0-19f82139180c")
 		)
@@ -3301,15 +3283,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 135.89 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "P$1"
 			(uuid "38b81f57-f762-44a3-9196-7df417e9d051")
 		)
@@ -3373,15 +3346,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 40.64 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 40.64 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,15 +3655,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 148.59 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "cad361aa-05b5-4a4d-aed9-035be219eab4")
 		)
@@ -3803,15 +3758,6 @@
 		)
 		(property "MN" "Uni-Royal"
 			(at 57.15 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 57.15 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,15 +3874,6 @@
 			)
 		)
 		(property "MN" "GOODWORK"
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -4062,15 +3999,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 102.87 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "27daa7c0-1c3c-45f3-862f-497f7b65247a")
 		)
@@ -4177,15 +4105,6 @@
 		)
 		(property "MN" "Uni-Royal"
 			(at 88.9 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 88.9 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,15 +4282,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 127 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f6ec3bac-31fc-44eb-bdeb-4eb29458d89f")
 		)
@@ -4476,15 +4386,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 144.78 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7a000045-6dcf-4a53-b6d4-d1899a66c22e")
 		)
@@ -4545,15 +4446,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 87.63 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 87.63 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
