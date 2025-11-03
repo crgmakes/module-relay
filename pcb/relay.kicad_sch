@@ -646,6 +646,204 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CRGM Connector:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CRGM Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -875,6 +1073,316 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -2199,15 +2707,42 @@
 		)
 		(uuid 00fe932e-fa39-446f-86cb-2265cb0008fc)
 	)
-	(text "Relay"
+	(rectangle
+		(start 15.24 91.44)
+		(end 50.8 127)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae1bbbe9-d987-45b6-8963-7e414ede25df)
+	)
+	(text "Relay LED"
 		(exclude_from_sim no)
-		(at 24.384 84.582 0)
+		(at 15.24 127 0)
 		(effects
 			(font
-				(size 3.175 3.175)
-				(thickness 0.889)
+				(size 2 2)
+				(thickness 0.4)
 				(bold yes)
 			)
+			(justify left bottom)
+		)
+		(uuid "3c91e3f9-e5bb-4e1a-95ba-8bc364b3418c")
+	)
+	(text "Relay"
+		(exclude_from_sim no)
+		(at 15.24 88.9 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 		(uuid "db292913-49d0-48fc-bd54-0b20ee70b9bf")
 	)
@@ -2278,6 +2813,16 @@
 			(type default)
 		)
 		(uuid "00a3ff62-829f-4198-b048-e48464997e52")
+	)
+	(wire
+		(pts
+			(xy 22.86 106.68) (xy 22.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b39541c-a596-4788-a9ee-a34e3171aaa6")
 	)
 	(wire
 		(pts
@@ -2358,6 +2903,16 @@
 			(type default)
 		)
 		(uuid "4b3c9340-ac1d-439f-b879-7e6bc47c64ab")
+	)
+	(wire
+		(pts
+			(xy 22.86 114.3) (xy 24.13 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500e9a31-9829-4745-97e0-9e060c8bed24")
 	)
 	(wire
 		(pts
@@ -2461,6 +3016,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 114.3) (xy 33.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0990a21-69da-4f4b-9cae-193fcc0cf0ac")
+	)
+	(wire
+		(pts
 			(xy 82.55 60.96) (xy 82.55 57.15)
 		)
 		(stroke
@@ -2471,13 +3036,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 50.8) (xy 102.87 60.96)
+			(xy 22.86 111.76) (xy 22.86 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7d33250-e2cb-48a7-9e2a-b373719a6125")
+		(uuid "c76b92e5-8243-42ba-9d6d-6da13b9959d9")
 	)
 	(wire
 		(pts
@@ -2529,6 +3094,16 @@
 		)
 		(uuid "f74a97fe-a448-43a9-949a-b2eac2e4ee74")
 	)
+	(wire
+		(pts
+			(xy 102.87 50.8) (xy 102.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd5a963-79ef-4e93-8ae8-5eb4de54963b")
+	)
 	(label "LOAD_OUT"
 		(at 137.16 48.26 0)
 		(effects
@@ -2540,7 +3115,7 @@
 		(uuid "62afeab7-8802-4ba0-9745-87b7f43ace5c")
 	)
 	(label "RELAY_CTRL"
-		(at 102.87 58.42 0)
+		(at 102.87 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2590,9 +3165,30 @@
 			)
 		)
 	)
+	(global_label "RELAY_LED"
+		(shape input)
+		(at 33.02 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da1c24af-8ca6-405c-9a1c-5a667d59dac0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.0442 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
-		(at 41.91 74.93 0)
+		(at 162.56 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2601,7 +3197,7 @@
 		(fields_autoplaced yes)
 		(uuid "0488eede-cf50-4217-aac5-aaa8e58efb59")
 		(property "Reference" "C2"
-			(at 45.72 73.6599 0)
+			(at 166.37 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +3206,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 45.72 76.1999 0)
+			(at 166.37 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +3215,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Passive:C_0603_1608Metric"
-			(at 42.8752 78.74 0)
+			(at 163.5252 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +3224,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +3233,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 41.91 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +3242,7 @@
 			)
 		)
 		(property "MN" "Samsung"
-			(at 41.91 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +3251,7 @@
 			)
 		)
 		(property "MPN" "CL10B104KO8NNNC"
-			(at 41.91 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +3260,7 @@
 			)
 		)
 		(property "LCSC" "C66501"
-			(at 41.91 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +3269,7 @@
 			)
 		)
 		(property "Digikey" "1276-1005-2-ND"
-			(at 41.91 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +3278,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10B104KO8NNNC"
-			(at 41.91 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +3287,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 41.91 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +3296,7 @@
 			)
 		)
 		(property "Vr" "16V"
-			(at 41.91 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +3321,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 41.91 71.12 0)
+		(at 162.56 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2734,7 +3330,7 @@
 		(fields_autoplaced yes)
 		(uuid "11a1e09d-892c-46eb-8324-5c83b08324fb")
 		(property "Reference" "#PWR03"
-			(at 41.91 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +3339,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 41.91 66.04 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +3347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 71.12 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +3356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 71.12 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +3365,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 71.12 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +3544,7 @@
 			)
 		)
 		(property "MN" "Same Sky"
-			(at 118.11 68.326 0)
+			(at 118.11 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +3561,7 @@
 			)
 		)
 		(property "LCSC" "C7029760"
-			(at 118.364 70.104 0)
+			(at 118.364 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,6 +4160,74 @@
 		)
 	)
 	(symbol
+		(lib_id "CRGM Connector:SolderJumper_2_Bridged")
+		(at 27.94 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "63af0d18-3199-4110-9e77-7978c024c6c3")
+		(property "Reference" "JP6"
+			(at 27.94 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 27.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 27.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 27.94 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2418d968-2ea6-4fd8-8e35-d233461f524d")
+		)
+		(pin "1"
+			(uuid "7acdb3fb-1e0e-4991-9fbb-bb82820ceb24")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 148.59 48.26 270)
 		(unit 1)
@@ -3662,6 +4326,125 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "P4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 22.86 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95b23ad6-510e-45d3-b845-2885c2a68c3d")
+		(property "Reference" "R7"
+			(at 24.3586 101.7016 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 24.3586 104.013 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRGM Passive:R_0603_1608Metric"
+			(at 22.86 102.87 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 102.87 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 22.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Vishay"
+			(at 22.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW06031K00FKEA"
+			(at 22.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW0603-1.0K-E3"
+			(at 22.86 102.87 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-1.00KHTR-ND"
+			(at 22.86 102.87 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907113"
+			(at 22.86 102.87 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bdc3585-3e3d-4f77-b6e4-e39731fa6885")
+		)
+		(pin "2"
+			(uuid "f217028d-facf-48f8-b059-29df27f5a171")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4129,7 +4912,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 78.74 0)
+		(at 162.56 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4138,7 +4921,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed357710-fb49-449e-b5be-e0a3e55a9360")
 		(property "Reference" "#PWR024"
-			(at 41.91 85.09 0)
+			(at 162.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4930,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 82.8731 0)
+			(at 162.56 85.4131 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 78.74 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 78.74 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +4956,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 78.74 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,6 +5182,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 22.86 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa1b1529-6d6f-405e-95bb-4557a081a7df")
+		(property "Reference" "D5"
+			(at 24.13 107.95 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 24.13 110.49 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
+			(at 22.86 109.22 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 109.22 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 22.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "XINGLIGHT"
+			(at 22.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1608SURC-06"
+			(at 22.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-150060SS75000"
+			(at 22.86 109.22 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "5962-XL-1608UBC-06ATR-ND"
+			(at 22.86 109.22 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965799"
+			(at 22.86 109.22 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 22.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b4c3c74-d3e5-4398-8558-1ff8285cc334")
+		)
+		(pin "2"
+			(uuid "667ae841-1f84-4a25-9fe0-2fbd5eb4b4e2")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CRGM Connector:TestPoint")
 		(at 87.63 46.99 0)
 		(unit 1)
@@ -4460,6 +5371,71 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 22.86 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff51c65d-34fe-4728-938c-1394d5a4dd5f")
+		(property "Reference" "#PWR029"
+			(at 22.86 104.14 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 22.86 96.52 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 22.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7963c642-e1f0-41a9-95f0-9c21d8da94da")
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/0a3c400a-fb69-4691-b0a9-570856f60703"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

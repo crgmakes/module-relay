@@ -10,91 +10,7 @@
 		(rev "<<tag>>")
 		(comment 1 "<<hash>>")
 	)
-	(lib_symbols
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
+	(lib_symbols)
 	(rectangle
 		(start 106.68 63.5)
 		(end 193.04 124.46)
@@ -110614,305 +110530,9 @@
 			"VQQDEw9ET0QgRU1BSUwgQ0EtNzEAAAAAAw/P/wAAAAAUZtgK+aFRTyTwARrs3A=="
 		)
 	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 278.13 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "014cda66-b132-422f-a3af-7e64e828cf98")
-		(property "Reference" "H1"
-			(at 280.67 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 280.67 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_Pad_Via"
-			(at 278.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 278.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 278.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 278.13 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ac1986b-5531-49fd-a2e7-2b1f49a44339")
-		(property "Reference" "H3"
-			(at 280.67 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 280.67 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_Pad_Via"
-			(at 278.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 278.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 278.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 278.13 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "934edb26-4e56-4000-925b-55a79d442001")
-		(property "Reference" "H2"
-			(at 280.67 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 280.67 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_Pad_Via"
-			(at 278.13 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 278.13 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 278.13 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 278.13 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f32028a5-6e48-4576-ae68-1f6cfc1f1bd3")
-		(property "Reference" "H4"
-			(at 280.67 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 280.67 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Mechanical:MountingHole_3.2mm_M3_Pad_Via"
-			(at 278.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 278.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 278.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 84.455 19.685)
-		(size 31.75 26.67)
+		(at 84.455 20.32)
+		(size 31.75 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -110927,7 +110547,7 @@
 		)
 		(uuid "0a3c400a-fb69-4691-b0a9-570856f60703")
 		(property "Sheetname" "Relay"
-			(at 84.455 18.9734 0)
+			(at 84.455 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110936,7 +110556,7 @@
 			)
 		)
 		(property "Sheetfile" "relay.kicad_sch"
-			(at 84.455 46.9396 0)
+			(at 84.455 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110953,8 +110573,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 19.685)
-		(size 31.75 26.67)
+		(at 50.8 20.32)
+		(size 31.75 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -110969,7 +110589,7 @@
 		)
 		(uuid "3b602092-7627-4b1e-9a45-58db61fac69b")
 		(property "Sheetname" "MCU"
-			(at 50.8 18.9734 0)
+			(at 50.8 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110978,7 +110598,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 50.8 46.9396 0)
+			(at 50.8 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110995,8 +110615,8 @@
 		)
 	)
 	(sheet
-		(at 118.11 19.685)
-		(size 31.75 26.67)
+		(at 118.11 20.32)
+		(size 31.75 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -111011,7 +110631,7 @@
 		)
 		(uuid "8c24c56f-0d3c-42c7-983e-10b8f8d78981")
 		(property "Sheetname" "Interfaces"
-			(at 118.11 18.9734 0)
+			(at 118.11 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111020,7 +110640,7 @@
 			)
 		)
 		(property "Sheetfile" "interface.kicad_sch"
-			(at 118.11 46.9396 0)
+			(at 118.11 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111037,8 +110657,50 @@
 		)
 	)
 	(sheet
-		(at 17.145 19.685)
-		(size 31.75 26.67)
+		(at 152.4 20.32)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a93dbfc5-0251-4a80-8701-f48cdba9d35e")
+		(property "Sheetname" "Power"
+			(at 152.4 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 152.4 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.145 20.32)
+		(size 31.75 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -111053,7 +110715,7 @@
 		)
 		(uuid "dc09e621-2599-4940-ada2-25b5d3d0b325")
 		(property "Sheetname" "Requirements"
-			(at 17.145 18.9734 0)
+			(at 17.145 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111062,7 +110724,7 @@
 			)
 		)
 		(property "Sheetfile" "requirements.kicad_sch"
-			(at 17.145 46.9396 0)
+			(at 17.145 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

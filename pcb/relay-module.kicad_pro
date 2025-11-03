@@ -749,6 +749,10 @@
     [
       "8c24c56f-0d3c-42c7-983e-10b8f8d78981",
       "Interfaces"
+    ],
+    [
+      "a93dbfc5-0251-4a80-8701-f48cdba9d35e",
+      "Power"
     ]
   ],
   "text_variables": {}
