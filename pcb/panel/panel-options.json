@@ -3,7 +3,7 @@
         "hspace": "2mm",
         "vspace": "2mm",
         "rows": "2",
-        "cols": "2"
+        "cols": "1"
     },
     "tabs": {
         "type": "fixed",
@@ -12,13 +12,18 @@
     },
     "cuts": {
         "type": "vcuts",
-        "offset": "-0.1mm",
-        "linewidth": "0.1mm",
-        "layer": "User.1"
+        "offset": "0mm",
+        "linewidth": "0mm",
+        "layer": "Edge.Cuts"
     },
     "framing": {
-        "type": "railstb",
-        "fillet": "1mm"
+        "type": "frame",
+        "width": "5mm",
+        "space": "2mm",
+        "fillet": "1mm",
+        "mintotalwidth": "70mm",
+        "mintotalheight": "70mm",
+        "cuts": "both"
     },
     "tooling": {
         "type": "3hole",
@@ -27,20 +32,23 @@
     },
     "fiducials": {
         "type": "3fid",
-        "hoffset": "5mm",
-        "voffset": "2.5mm",
+        "hoffset": "2.5mm",
+        "voffset": "5mm",
         "coppersize": "2mm"
     },
     "text": {
         "type": "simple",
-        "voffset": "2.5mm",
-        "text": "Aquarius Relay Module"
+        "hoffset": "2.5mm",
+        "orientation": "90deg",
+        "text": "Aquarius Relay Module",
+        "anchor": "ml"
     },
     "text2": {
         "type": "simple",
-        "voffset": "-2.5mm",
+        "hoffset": "-2.5mm",
+        "orientation": "90deg",
         "text": "CRG Makes {date}",
-        "anchor": "mb"
+        "anchor": "mr"
     },
     "post": {
         "millradius": "1mm"
