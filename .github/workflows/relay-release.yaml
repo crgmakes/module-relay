@@ -1,0 +1,20 @@
+# Aquarius - Automation Simplified
+#
+# @brief Git script for exporting PCB data for the repo.
+# @note runs manually or automatically when there is a release
+# @date 11/04/25
+# @author cyberreefguru
+# (c) CRG Makes 2025
+name: Aquarius-Relay-Module-Release
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  call-export-pcb:
+    uses: crgmakes/kicad-extras/.github/workflows/crgm-ecad-release.yaml@main
+    with:
+      name: 'Relay Module'
+      repo-name: module-relay
+      file-name: relay-module
