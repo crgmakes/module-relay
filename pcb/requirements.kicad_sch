@@ -46096,7 +46096,7 @@
 		)
 		(uuid "089c8a1f-19d5-46d0-918e-5c4c2c53cdff")
 	)
-	(text_box "PCB:\n4 Layers\nThickness: 1.6mm\nCopper: 1oz\nFinish: HASL\nSoldermask: Purple\nSilkscreen: White\nMin Trace: 6mil\nMin Spacing: 5mil\nMin Drill: 0.25mm\nMin Via: 0.3mm\nMin Via Annular Ring: 0.6mm\n\n"
+	(text_box "PCB:\n4 Layers\nThickness: 1.6mm\nCopper: 1oz (2oz maybe required)\nFinish: HASL\nSoldermask: Purple\nSilkscreen: White\nMin Trace: 6mil\nMin Spacing: 5mil\nMin Drill: 0.25mm\nMin Via: 0.3mm\nMin Via Annular Ring: 0.6mm\n\n"
 		(exclude_from_sim yes)
 		(at 106.68 92.71 0)
 		(size 78.74 54.356)
@@ -46121,7 +46121,7 @@
 		)
 		(uuid "33d463ad-076a-4ab2-9a6b-913ce2517ce4")
 	)
-	(text_box "BASIC\n\n* ATTiny1616 Process\n* Adafruit Seesaw Protocol\n* One relay\n* Power In/Out Ports\n* Optional Pull Ups for I2C\n* I2C Address Selection (2-bits)\n* Flyback Diode for Relay"
+	(text_box "BASIC\n\n* ATTiny1616 Process\n* Adafruit Seesaw Protocol\n* One relay; optically isolated\n* Power In/Out Ports\n* Optional Pull Ups for I2C\n* I2C Address Selection (2-bits)\n* Flyback Diode for Relay"
 		(exclude_from_sim yes)
 		(at 19.05 31.75 0)
 		(size 69.85 55.88)
@@ -46994,7 +46994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Aquarius Logo 8mm"
+		(property "Footprint" "CRGM Logos:Aquarius Logo 5mm"
 			(at 32.004 191.008 0)
 			(effects
 				(font
@@ -47478,7 +47478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Roxy 8mm"
+		(property "Footprint" "CRGM Logos:Roxy 5mm"
 			(at 41.91 196.088 0)
 			(effects
 				(font
