@@ -520,7 +520,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CRGM Connector:AVR-UPDI-6"
+		(symbol "CRGM Connector:AVR-UPDI-UART-6"
 			(pin_names
 				(offset 1.016)
 			)
@@ -536,7 +536,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AVR-UPDI-6"
+			(property "Value" "AVR-UPDI-UART-6"
 				(at -6.096 -5.08 0)
 				(effects
 					(font
@@ -545,8 +545,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at -6.35 -1.27 90)
+			(property "Footprint" "CRGM Connector:PinHeader_2x03_P2.54mm_Vertical_SMD"
+				(at 0 -12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -563,7 +563,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Atmel 6-pin UPDI connector"
+			(property "Description" "Atmel 6-pin UPDI + UART connector"
 				(at 0 -10.668 0)
 				(effects
 					(font
@@ -590,7 +590,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AVR-UPDI-6_0_1"
+			(symbol "AVR-UPDI-UART-6_0_1"
 				(rectangle
 					(start -6.35 5.842)
 					(end 6.35 -3.556)
@@ -603,7 +603,7 @@
 					)
 				)
 			)
-			(symbol "AVR-UPDI-6_1_1"
+			(symbol "AVR-UPDI-UART-6_1_1"
 				(pin passive line
 					(at -8.89 3.81 0)
 					(length 2.54)
@@ -640,10 +640,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at -8.89 -1.27 0)
 					(length 2.54)
-					(name "NC"
+					(name "TXD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -676,10 +676,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 8.89 1.27 180)
 					(length 2.54)
-					(name "NC"
+					(name "RXD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1947,6 +1947,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 46.99) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75454976-aa7c-4ee1-833e-fca44546ab38")
+	)
+	(wire
+		(pts
 			(xy 62.23 57.15) (xy 85.09 57.15)
 		)
 		(stroke
@@ -2114,6 +2124,16 @@
 			(type default)
 		)
 		(uuid "e17906aa-f7cc-4ae2-9df7-ad3729c1161f")
+	)
+	(wire
+		(pts
+			(xy 201.93 44.45) (xy 196.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4bdc6d-f026-445b-9014-14818cca46dd")
 	)
 	(wire
 		(pts
@@ -2287,6 +2307,27 @@
 			)
 		)
 	)
+	(global_label "TXD"
+		(shape input)
+		(at 175.26 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54c4dd3d-cc0c-4071-ae78-b85079eeda40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.8277 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "UPDI"
 		(shape input)
 		(at 120.65 44.45 0)
@@ -2325,6 +2366,27 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "RXD"
+		(shape output)
+		(at 201.93 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3fb6394-907d-45ea-ab68-5c2f8e91ef04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6647 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -2492,15 +2554,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 72.39 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1403203b-1174-4d3c-8ac8-debf1a7af6dd")
 		)
@@ -2564,15 +2617,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 89.154 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 80.01 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,15 +2691,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 121.92 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ca23d2db-8bd1-4f6d-9f65-d1e64830ecad")
 		)
@@ -2716,15 +2751,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 89.154 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 80.01 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,124 +2831,6 @@
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/3b602092-7627-4b1e-9a45-58db61fac69b"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CRGM Connector:AVR-UPDI-6")
-		(at 187.96 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "39fc936e-928f-416d-b80c-4d1da554f3ff")
-		(property "Reference" "J1"
-			(at 188.722 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AVR-UPDI-6"
-			(at 193.802 38.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Connector:PinHeader_2x03_P2.54mm_Vertical_SMD"
-			(at 181.61 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.microchip.com/webdoc/GUID-9D10622A-5C16-4405-B092-1BDD437B4976/index.html?GUID-9B349315-2842-4189-B88C-49F4E1055D7F"
-			(at 187.96 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Atmel 6-pin UPDI connector"
-			(at 187.96 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 187.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 187.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 187.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 187.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "86b99a65-190a-4d16-8df7-347601174361")
-		)
-		(pin "6"
-			(uuid "e2ac0228-092c-4c19-afd7-658354db99fa")
-		)
-		(pin "1"
-			(uuid "8900b3a3-a45d-468b-bfbf-6d9242f40554")
-		)
-		(pin "2"
-			(uuid "c64a560a-8887-4e98-9026-f44f0cb23fc6")
-		)
-		(pin "5"
-			(uuid "602f0e97-5733-464d-9128-fe8986c9fd5d")
-		)
-		(pin "3"
-			(uuid "0f7be81a-4931-47b1-9662-66aeca4063a6")
-		)
-		(instances
-			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/3b602092-7627-4b1e-9a45-58db61fac69b"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3112,15 +3020,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 128.27 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "56404e46-7f0e-449e-a7e5-ba8803620b02")
 		)
@@ -3257,15 +3156,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 175.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "01c4ad8f-dd37-49f9-b21e-5eeb59511477")
 		)
@@ -3371,15 +3261,6 @@
 			)
 		)
 		(property "Mouser" "71-CRCW06034K70JNEAC"
-			(at 62.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 62.23 52.07 0)
 			(effects
 				(font
@@ -3617,15 +3498,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 121.92 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c6ca1a28-70cd-481c-992a-d50b23cbc0f3")
 		)
@@ -3804,15 +3676,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 53.34 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2a4e9c38-c314-4741-932d-c5a8db72f4ac")
 		)
@@ -3949,15 +3812,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 121.92 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "38668a9d-85f6-496a-8243-9f93ae79957e")
 		)
@@ -4050,15 +3904,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 62.23 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "de62131b-1977-4460-8b27-66852da8ec7e")
 		)
@@ -4122,15 +3967,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 87.884 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 78.74 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,6 +4053,114 @@
 		)
 	)
 	(symbol
+		(lib_id "CRGM Connector:AVR-UPDI-UART-6")
+		(at 187.96 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ca633bb2-da28-4418-baed-f8444522a184")
+		(property "Reference" "J1"
+			(at 181.864 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AVR-UPDI-UART-6"
+			(at 181.864 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRGM Connector:PinHeader_2x03_P2.54mm_Vertical_SMD"
+			(at 187.96 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.microchip.com/webdoc/GUID-9D10622A-5C16-4405-B092-1BDD437B4976/index.html?GUID-9B349315-2842-4189-B88C-49F4E1055D7F"
+			(at 187.96 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Atmel 6-pin UPDI + UART connector"
+			(at 187.96 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 187.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 187.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 187.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "971689e8-38ba-4441-b50c-6a44911a15e8")
+		)
+		(pin "3"
+			(uuid "92756884-541a-43a5-8073-d0924a8c5540")
+		)
+		(pin "5"
+			(uuid "b045d026-3fd3-421c-b340-99bd9ad0a081")
+		)
+		(pin "2"
+			(uuid "d05c16d7-039a-42be-8afa-cfd6b33b3ce2")
+		)
+		(pin "4"
+			(uuid "ffefde0e-3935-45f0-9cd3-532dac61a2b0")
+		)
+		(pin "6"
+			(uuid "27c13fd0-9033-4e99-99a5-c91a5a71cf69")
+		)
+		(instances
+			(project ""
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/3b602092-7627-4b1e-9a45-58db61fac69b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CRGM Connector:SolderJumper_2_Open")
 		(at 53.34 43.18 90)
 		(unit 1)
@@ -4288,15 +4232,6 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 53.34 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 53.34 43.18 0)
 			(effects
 				(font
@@ -4440,15 +4375,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 121.92 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "99222053-713d-4105-a30c-24c9bdbd93dc")
 		)
@@ -4516,15 +4442,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 121.92 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "89e08914-579e-4e44-8dd2-5825bd8578e7")
 		)
@@ -4585,15 +4502,6 @@
 		)
 		(property "Description" "Test Point D1.0mm"
 			(at 112.776 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 121.92 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,15 +4613,6 @@
 			)
 		)
 		(property "LCSC" "C507118"
-			(at 100.33 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 100.33 62.23 0)
 			(effects
 				(font
@@ -4866,15 +4765,6 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 77.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 77.47 76.2 0)
 			(effects
 				(font

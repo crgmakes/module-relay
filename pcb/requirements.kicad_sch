@@ -46352,15 +46352,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 163.83 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2110f048-35cc-426c-9956-b801dd751e31")
 		)
@@ -46447,15 +46438,6 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 99.06 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 99.06 187.96 0)
 			(effects
 				(font
@@ -46564,15 +46546,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 20.32 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/dc09e621-2599-4940-ada2-25b5d3d0b325"
@@ -46629,15 +46602,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 114.3 187.96 0)
 			(effects
 				(font
@@ -46712,15 +46676,6 @@
 		)
 		(property "MPN" ""
 			(at 163.83 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 163.83 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46822,15 +46777,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 87.63 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/dc09e621-2599-4940-ada2-25b5d3d0b325"
@@ -46921,15 +46867,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 64.77 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/dc09e621-2599-4940-ada2-25b5d3d0b325"
@@ -47012,15 +46949,6 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 53.34 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 53.34 187.96 0)
 			(effects
 				(font
@@ -47129,15 +47057,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 30.48 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/dc09e621-2599-4940-ada2-25b5d3d0b325"
@@ -47228,15 +47147,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 76.2 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/dc09e621-2599-4940-ada2-25b5d3d0b325"
@@ -47293,15 +47203,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 106.68 187.96 0)
 			(effects
 				(font
@@ -47410,15 +47311,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 163.83 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b1542971-a409-4b97-94a0-d126aa6c080e")
 		)
@@ -47478,15 +47370,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 121.92 187.96 0)
 			(effects
 				(font
@@ -47650,15 +47533,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 41.91 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "relay-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/dc09e621-2599-4940-ada2-25b5d3d0b325"
@@ -47725,15 +47599,6 @@
 		)
 		(property "MPN" ""
 			(at 163.83 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 163.83 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
